@@ -25,12 +25,12 @@ jobs:
         python-version: ['3.11', '3.12']
     steps:
       - name: Checkout sin credenciales persistentes
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           persist-credentials: false
       - name: Preparar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
       - name: Validar hashes y generar HTML autonomo
