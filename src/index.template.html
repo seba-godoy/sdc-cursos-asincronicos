@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investigación sobre Cursos Asincrónicos | Simón de Cirene</title>
+<meta name="description" content="Dashboard interactivo y trazable del estudio de oferta, demanda y selección de cursos asincrónicos de Simón de Cirene, Chile 2026.">
+<style>
+{{SDC_CSS}}</style>
+</head>
+<body>
+<button type="button" class="sidebar-toggle" id="sidebarToggle" aria-label="Abrir menú de navegación" aria-controls="sidebar" aria-expanded="false" title="Abrir menú"><span class="sidebar-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span></button>
+<div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
+<div class="app">
+<aside class="sidebar" id="sidebar" aria-label="Navegación de la investigación" inert>
+  <div class="brand"><img class="brand-logo" src="{{SDC_LOGO_SIDEBAR}}" width="210" height="105" alt="Simón de Cirene · Sin afecto no hay efectos"><div class="brand-caption">Investigación de cursos</div></div>
+  <div class="nav-head">Recorrido principal</div>
+  <nav class="nav" id="nav" aria-label="Secciones principales">
+    <button type="button" data-view="inicio" class="active"><span>⌂</span> Inicio</button>
+    <button type="button" data-view="oferta"><span>▦</span> Oferta <span class="count">392</span></button>
+    <button type="button" data-view="demanda"><span>◇</span><span class="ux-nav-label">Demanda<small class="ux-nav-refining">(Afinando detalles)</small></span><span class="count">24</span></button>
+    <button type="button" data-view="conceptos"><span>◉</span><span class="ux-nav-label">Conclusiones Cruzadas<small class="ux-nav-refining">(Afinando detalles)</small></span><span class="count">6</span></button>
+    <button type="button" data-view="metodo"><span>▤</span><span class="ux-nav-label">Métodos y Fuentes<small class="ux-nav-refining">(Afinando detalles)</small></span></button>
+  </nav>
+  <div class="nav-head" style="padding-top:24px">Herramientas de consulta</div>
+  <nav class="nav" aria-label="Herramientas de consulta">
+    <button type="button" data-view="precios"><span>◌</span> Benchmarks y precios</button>
+    <button type="button" data-view="busquedas"><span>⌕</span> Bitácora de búsquedas <span class="count">709</span></button>
+  </nav>
+  <div class="sidebar-bottom"><div class="sidebar-note"><b>Lectura crítica</b>Este es un mapa de evidencia, no una estimación del tamaño total del mercado. Precios publicados no equivalen a compras realizadas.</div><div class="sidebar-meta">Snapshot de la matriz · 16 noviembre 2026<br>Estudio externo · Chile · 2024–2026</div></div>
+</aside>
+<div class="main"><div class="topbar"><div class="crumb">Práctica · Investigación de mercado / <b id="breadcrumb">Inicio</b></div><div class="top-actions"><span class="sdc-top-brand" title="Simón de Cirene"><img src="{{SDC_LOGO_TOPBAR}}" width="31" height="31" alt=""></span><span class="date-stamp"><span class="dot"></span>Corte 16 nov 2026</span><a class="top-link" href="https://docs.google.com/spreadsheets/d/1D_LGqoXsAqLhToFWXBzXUhPds3R9K3OpSD-SPlz0Qqw/edit" target="_blank" rel="noopener">Matriz original ↗</a></div></div>
+<section class="page active" data-page="inicio" id="inicio"></section>
+<section class="page" data-page="oferta" id="oferta"></section>
+<section class="page" data-page="conceptos" id="conceptos"></section>
+<section class="page" data-page="demanda" id="demanda"></section>
+<section class="page" data-page="precios" id="precios"></section>
+<section class="page" data-page="busquedas" id="busquedas"></section>
+<section class="page" data-page="metodo" id="metodo"></section>
+<div class="footer-credits"><span>Construido a partir del registro canónico de investigación · Simón de Cirene</span><span>Todos los registros están incluidos en este archivo HTML y son explorables sin conexión.</span></div>
+</div></div>
+<div class="overlay" id="overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Detalle de evidencia"><div class="drawer" id="drawer"><div class="drawer-top"><span class="tag teal">Detalle de evidencia</span><button type="button" class="close" data-close="1" aria-label="Cerrar">×</button></div><div id="drawerContent"></div></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script id="dataset" type="application/json">{{SDC_DATASET}}</script>
+<script id="ox-analysis-data" type="application/json">{{SDC_OX}}</script>
+<script type="application/json" id="ux10-demand-brief">{{SDC_DEMAND}}</script>
+<script>{{SDC_APP_JS}}</script></body></html>

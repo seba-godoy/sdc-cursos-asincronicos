@@ -1,44 +1,47 @@
-# Investigación de cursos asincrónicos · Simón de Cirene
+# Cursos asincrónicos | Simón de Cirene
 
-Repositorio público de trabajo para organizar el desarrollo técnico de un dashboard de investigación de oferta y señales de demanda de cursos asincrónicos vinculados al tercer sector en Chile.
+Repositorio **público** del trabajo de investigación sobre oferta, señales de demanda y oportunidades de cursos asincrónicos para el tercer sector en Chile. La publicación del material en GitHub fue autorizada por el responsable del proyecto. Es un prototipo de investigación en desarrollo y no representa por sí solo una comunicación institucional oficial.
 
-> **Estado:** estructura técnica inicial. Los datos, el HTML candidato y las herramientas de compilación todavía no se han publicado en este repositorio.
->
-> **Carácter del material:** proyecto de investigación y prototipado en desarrollo. Su presencia aquí no implica aprobación institucional ni constituye una publicación oficial de Fundación Simón de Cirene.
+## Estado
 
-## Objetivo
+- **GitHub, fase GH-01.2:** código, datos y logos de UX-10.3 v1.0.12 versionados en fuentes editables y compilables.
+- **Candidato v1.0.12:** reconstruible byte a byte, con SHA-256 `82f57a273302275b2458f854fbb7a583f674b578f0fbd5ef063b09bf7515e7c7`.
+- **Vercel:** última publicación documentada v1.0.9; este repositorio no activa despliegues automáticos.
+- **Alcance de la base:** 392 Oferta, 709 Búsquedas, 24 Demanda y 6 Decisión, total 1.131 registros.
 
-Facilitar la lectura de la oferta formativa, las señales disponibles de demanda, la evidencia y las oportunidades potenciales, sin confundir indicadores de actividad con ventas o disposición a pagar.
+## Compilar
 
-## Estado de versiones
+Solo necesitas Python 3.10 o superior y su biblioteca estándar:
 
-- **Sitio actualmente publicado (referencia):** [cursos-asincronicos-sdc.vercel.app](https://cursos-asincronicos-sdc.vercel.app), versión de referencia v1.0.9 según la última acta interna.
-- **Candidato más reciente:** v1.0.12 (UX-10.3), respaldado fuera de GitHub y pendiente de revisión para su incorporación.
-- **Repositorio:** GH-01.1, estructura inicial y control de exposición pública.
+```sh
+python scripts/build.py --check
+python scripts/build.py
+python -m unittest discover -s tests -v
+```
 
-El sitio en Vercel y este repositorio son superficies distintas. Un commit aquí **no** debe activar automáticamente una publicación en producción.
+El resultado es `dist/dashboard-v1.0.12.html`, un **HTML autónomo** que puede abrirse sin conectividad para el funcionamiento básico. La carpeta `dist/` está excluida del control de versiones. El constructor verifica el tamaño y SHA-256 contra el manifiesto.
 
-## Estructura prevista
+## Estructura del repositorio
 
-| Ruta | Uso previsto |
+| Ruta | Contenido |
 | --- | --- |
-| `src/` | Código fuente del dashboard |
-| `data/` | Datos revisados y autorizados para distribución |
-| `scripts/` | Generación reproducible de artefactos |
-| `tests/` | Pruebas de integridad y regresión |
-| `docs/` | Documentación de trabajo, decisiones y controles |
-| `dist/` | Artefactos generados localmente, excluidos de Git por defecto |
+| `src/index.template.html` | Estructura HTML con marcadores |
+| `src/styles/dashboard.css` | Hoja de estilo original |
+| `src/scripts/dashboard.js` | Lógica JavaScript original |
+| `data/` | Tres bloques JSON originales y auditados |
+| `assets/logos/` | Tres imágenes PNG originales |
+| `scripts/build.py` | Generación reproducible del HTML |
+| `tests/test_build.py` | Pruebas estructurales y de integridad |
+| `docs/` | Manifiesto, política, actas y roadmap |
 
-Los directorios que aún contienen solo archivos `.gitkeep` son reservas de estructura, no implementaciones terminadas.
+Más detalles en [Compilación reproducible](docs/REPRODUCIBILITY.md), [GH-01.2](docs/GH-01.2_AUDIT.md) y [Roadmap técnico](docs/ROADMAP.md).
 
-## Seguridad, derechos y publicación
+## Criterios analíticos
 
-Antes de incorporar cualquier archivo, aplicar la [política de publicación](docs/PUBLICATION_POLICY.md) y dejar constancia de la revisión. No subir credenciales, información personal, materiales internos sin autorización, activos con derechos no aclarados, ni versiones candidatas no aprobadas.
+El catálogo reúne oferta publicada, búsquedas, señales de actividad y conceptos propuestos. Una señal de participación, una contratación institucional o la presencia de cursos **no demuestra** por sí misma compradores, ventas ni disposición a pagar. Los datos mantienen sus unidades, limitaciones y fuentes originales.
 
-Este repositorio **no incluye licencia de reutilización** por ahora. Que sea público permite consultarlo y utilizar las funciones de GitHub conforme a sus condiciones; no autoriza automáticamente reutilizar o redistribuir activos ajenos.
+## Transparencia y seguridad
 
-## Plan de trabajo
+El repositorio público puede leerse y clonarse sin dar permisos individuales, pero no ofrece automáticamente una licencia de redistribución sobre activos de terceros. No subir claves, tokens o documentos sensibles. Ver la [política de publicación](docs/PUBLICATION_POLICY.md).
 
-Consultar [roadmap](docs/ROADMAP.md) y [acta de GH-01.1](docs/GH-01.1_AUDIT.md).
-
-**Responsabilidad de publicación:** los despliegues a producción requieren autorización explícita; no conectar GitHub a Vercel hasta completar el control de publicación previsto en GH-01.4.
+**Importante:** los pushes a GitHub **no deben** desplegar automáticamente en Vercel. Cualquier publicación en producción requiere autorización explícita y se abordará en GH-01.4.

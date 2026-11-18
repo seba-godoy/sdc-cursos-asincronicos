@@ -1,0 +1,61 @@
+{
+  "phase": "GH-01.2",
+  "version": "v1.0.12",
+  "source": {
+    "name": "SDC_VIZ-01_UX-10.3_local_v1.0.12.html",
+    "sha256": "82f57a273302275b2458f854fbb7a583f674b578f0fbd5ef063b09bf7515e7c7",
+    "bytes": 1848239,
+    "drive": "https://drive.google.com/file/d/1cpP2Y45e9VAqxkj9Usrhc-QCoeqCQTDe/view"
+  },
+  "output_sha256": "82f57a273302275b2458f854fbb7a583f674b578f0fbd5ef063b09bf7515e7c7",
+  "components": {
+    "assets/logos/logo-portada.png": {
+      "sha256": "3a49c5f1ee37b444f7ce2600b45e23ce8dbf2c611068ddf105f114969805fb8a",
+      "bytes": 187609
+    },
+    "assets/logos/logo-sidebar.png": {
+      "sha256": "64cca71dcb7fa56173e2eac511c70856a74f7dd467a2f80b77470513a545309f",
+      "bytes": 66658
+    },
+    "assets/logos/logo-topbar.png": {
+      "sha256": "4432b417981c1b24ae54ff068225e87bcb9159a9e9865fbfbcd8f1a818767a37",
+      "bytes": 2914
+    },
+    "data/dataset.json": {
+      "sha256": "94252a0072cb7f2de184e19aa8f7508502513f359779359b5b0d0d1bf1ac2820",
+      "bytes": 1057159
+    },
+    "data/ox-analysis-data.json": {
+      "sha256": "a249e2c9ea02e9e552994a43fe384e85eeb0894080014e71dc2e0dfe3775cb43",
+      "bytes": 277185
+    },
+    "data/ux10-demand-brief.json": {
+      "sha256": "f9e6d74a74b4423feb33f218d84deed2740aee08006724d8f8ad30f24b43e36a",
+      "bytes": 10968
+    },
+    "src/index.template.html": {
+      "sha256": "1c66bf79be34826b63a8a4364eafd4016f263dbc8b2431041d0cf8e061855e28",
+      "bytes": 4656
+    },
+    "src/scripts/dashboard.js": {
+      "sha256": "e54753c08e490fcbff251420bd0fa8359554532a9a6084f433e5cf8d6bea2d01",
+      "bytes": 90406
+    },
+    "src/styles/dashboard.css": {
+      "sha256": "13df4c7d0a207e31f86eab2919251fd3e121a397892161090821e46a45a1f72f",
+      "bytes": 65006
+    }
+  },
+  "json_blocks": {
+    "dataset": "94252a0072cb7f2de184e19aa8f7508502513f359779359b5b0d0d1bf1ac2820",
+    "ox-analysis-data": "a249e2c9ea02e9e552994a43fe384e85eeb0894080014e71dc2e0dfe3775cb43",
+    "ux10-demand-brief": "f9e6d74a74b4423feb33f218d84deed2740aee08006724d8f8ad30f24b43e36a"
+  },
+  "rows": {
+    "Oferta": 392,
+    "Búsquedas": 709,
+    "Demanda": 24,
+    "Decisión": 6
+  },
+  "deployment": "none"
+}
