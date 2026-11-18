@@ -43,5 +43,19 @@ jobs:
         run: node --check src/scripts/dashboard.js
       - name: Probar fallo y recuperacion en clon temporal
         run: python scripts/qa_guardrails.py
+      - name: Validar empaquetado de preview sin publicar
+        run: |
+          python -m scripts.package_preview --check
+          python -m scripts.package_preview
+      - name: Guardar candidato versionado en GitHub Actions
+        if: matrix.python-version == '3.12' && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v6
+        with:
+          name: sdc-preview-v1.0.12
+          path: |
+            dist/preview-candidate/index.html
+            dist/preview-candidate/candidate-manifest.json
+          retention-days: 14
+          if-no-files-found: error
       - name: Confirmar que no se alteraron archivos rastreados
         run: git diff --exit-code && git diff --cached --exit-code

@@ -6,8 +6,9 @@
 | GH-01.1 | 3/10 | Completada | Repositorio público, políticas y estructura |
 | GH-01.2 | 5/10 | **Completada** | CSS/JS/JSON/PNG versionados, compilación reproducible y 11 pruebas |
 | GH-01.3 | 4/10 | **Completada** | QA en GitHub Actions, matriz Python y recuperación aislada |
-| GH-01.4 | 4/10 (provisional) | **Siguiente** | Control de publicación GitHub + Vercel |
-| UX-11 | A recalcular | Pendiente | Cruces Oferta-Demanda para priorizar oportunidades |
+| GH-01.4 | 4/10 | **Completada técnicamente**, QA visual pendiente | Preview v1.0.12 y gates de producción manual |
+| UX-11.1 | 4/10 (estimación) | **Siguiente** | Matriz auditable de cruces Oferta-Demanda y contraevidencia |
+| UX-11.2+ | Por definir | Pendiente | Análisis y visualización progresivos del cruce |
 
 ## Cierre GH-01.2
 
@@ -21,17 +22,27 @@ Se descompuso UX-10.3 v1.0.12 sin modificar sus 1.131 registros. La construcció
 - [Acta GH-01.3](GH-01.3_AUDIT.md) y [runbook](RECOVERY.md). **No se ha probado un rollback real de Vercel** ni una auditoría completa de accesibilidad.
 - **Pendiente de configuración:** marcar checks como obligatorios mediante protección de ramas/ruleset si se decide exigirlos. El listado público de rulesets estaba vacío al auditar; la API de protección de ramas devolvió 403 a la conexión.
 
-## GH-01.4 · Dificultad provisional 4/10
+## Cierre técnico GH-01.4
 
-**Qué hará:** revisar el estado real de Vercel y su integración con GitHub; diseñar un mecanismo verificable de despliegue controlado, entornos de preview y aprobación manual para producción, sin publicar automáticamente v1.0.12.
+- Auditoría directa de Vercel: proyecto `cursos-asincronicos-sdc` en equipo Hobby y sin conexión Git, dominio público aún asociado al despliegue previo `dpl_3chwuB14CquyTuj8scX7p99MRF2f`.
+- Archivo [`vercel.json`](../vercel.json) incorporado con `git.deploymentEnabled: false`. El proyecto tampoco está conectado al repositorio.
+- Preview v1.0.12 creado manualmente en Vercel: [ver preview](https://cursos-asincronicos-ebdy56h15-sebastian-godoy-s-projects.vercel.app), ID `dpl_EaJPxhARx6HSCiPnbkoqzMjrFDq8`, READY, sin aliases, sin promoción a producción.
+- Script [`package_preview.py`](../scripts/package_preview.py) y QA extendida para producir artefacto verificado y descargable en GitHub Actions, sin credenciales ni deploy.
+- Solicitud de Vercel `autoAssignCustomDomains:false` aceptada; el valor no está disponible en la lectura posterior: **requiere confirmación manual en Settings**. El alias público continuó intacto.
+- [Runbook de publicación](RELEASE_RUNBOOK.md) y [acta GH-01.4](GH-01.4_AUDIT.md).
+- <b>La fase no autoriza ni ejecuta despliegue a producción</b>. La revisión visual del preview tampoco está cerrada.
 
-**Por qué importa:** los checks de GH-01.3 protegen la compilación, pero todavía falta evitar que un push correcto se convierta en un despliegue no autorizado. UX-11 necesita separar cambios en código, revisión técnica y publicación a DIMI.
+## Próxima UX-11.1 · Dificultad estimada 4/10
 
-**Límites:** mantener microtareas ≤5/10. Si el control de permisos, preview y aprobación supera 5/10, subdividir GH-01.4 antes de ejecutar.
+**Qué hará:** cruzar las 392 fichas de Oferta y las 24 de Demanda mediante temas/segmentos comparables, revisar cómo utilizar las 709 búsquedas como indicador independiente, clasificar evidencia explícita, inferida y no comparable, y elaborar una matriz de trazabilidad/contraevidencia antes de tocar el HTML.
+
+**Por qué importa:** terminamos la infraestructura básica; volvemos al objetivo principal: identificar cursos con oportunidades defendibles y evitar interpretar búsquedas o visualizaciones como demanda pagadora. Los resultados podrán implementarse con QA y preview previo a cualquier publicación.
+
+**Dependencia:** el preview actual sigue en revisión visual. Mantener microtareas ≤5/10.
 
 ## Condiciones de despliegue
 
 - GitHub público: control de versiones del material autorizado.
 - Drive y Notion: respaldo documental y actas.
-- Vercel: sin actualización ni conexión a GitHub en GH-01.2.
+- Vercel: no conectado a Git; preview v1.0.12 creado en GH-01.4, sin cambios de dominio público.
 - Ninguna subida a producción sin aprobación explícita del usuario.

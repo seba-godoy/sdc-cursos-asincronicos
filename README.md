@@ -4,9 +4,9 @@ Repositorio **público** del trabajo de investigación sobre oferta, señales de
 
 ## Estado
 
-- **GitHub, fase GH-01.3:** código y datos versionados, QA automatizada en GitHub Actions y recuperación de versiones ensayada.
+- **GitHub, bloque GH-01 cerrado técnicamente:** fuentes versionadas, QA automatizada, preview controlado y runbook para publicar con aprobación.
 - **Candidato v1.0.12:** reconstruible byte a byte, con SHA-256 `82f57a273302275b2458f854fbb7a583f674b578f0fbd5ef063b09bf7515e7c7`.
-- **Vercel:** última publicación documentada v1.0.9; este repositorio no activa despliegues automáticos.
+- **Vercel:** producción conserva el despliegue anterior (última versión documentada v1.0.9); preview v1.0.12 listo, sin promoción. No existe conexión Git-Vercel automática.
 - **Alcance de la base:** 392 Oferta, 709 Búsquedas, 24 Demanda y 6 Decisión, total 1.131 registros.
 
 ## Compilar
@@ -47,8 +47,25 @@ El catálogo reúne oferta publicada, búsquedas, señales de actividad y concep
 - [Guía de recuperación segura](docs/RECOVERY.md) y [acta GH-01.3](docs/GH-01.3_AUDIT.md).
 - **Límite:** disponer de checks automáticos no implica por sí mismo que GitHub impida fusionar si fallan. La imposición de checks obligatorios mediante protección de `main` aún no está confirmada.
 
+## Preparación de preview y autorización de producción
+
+El repositorio incluye [`vercel.json`](vercel.json) con `git.deploymentEnabled: false`. No existe integración Git-Vercel para este proyecto. Un push no despliega el sitio. El flujo QA prepara también un artefacto HTML descargable con sus hashes, **sin tokens de Vercel ni instrucciones de publicación**.
+
+Para generar localmente el archivo de preview:
+
+```sh
+python -m scripts.package_preview --check
+python -m scripts.package_preview
+```
+
+- [Preview v1.0.12 en Vercel](https://cursos-asincronicos-ebdy56h15-sebastian-godoy-s-projects.vercel.app), estado READY, sin alias de producción; revisión visual pendiente.
+- [Sitio público existente](https://cursos-asincronicos-sdc.vercel.app), sin cambios de GH-01.4.
+- [Runbook para aprobación, publicación y rollback](docs/RELEASE_RUNBOOK.md).
+- [Acta GH-01.4](docs/GH-01.4_AUDIT.md).
+- **Limitación operativa:** Vercel aceptó la actualización para desactivar la asignación automática de dominios, pero el conector no permitió leer el valor persistido; debe comprobarse en el panel antes de un despliegue de producción.
+
 ## Transparencia y seguridad
 
 El repositorio público puede leerse y clonarse sin dar permisos individuales, pero no ofrece automáticamente una licencia de redistribución sobre activos de terceros. No subir claves, tokens o documentos sensibles. Ver la [política de publicación](docs/PUBLICATION_POLICY.md).
 
-**Importante:** los pushes a GitHub **no deben** desplegar automáticamente en Vercel. Cualquier publicación en producción requiere autorización explícita y se abordará en GH-01.4.
+**Importante:** publicar una nueva versión en producción requiere aprobación expresa del responsable. GitHub Actions, el empaquetador y el preview **no** la publican automáticamente.
