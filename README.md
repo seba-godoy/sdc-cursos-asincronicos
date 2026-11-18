@@ -4,7 +4,7 @@ Repositorio **público** del trabajo de investigación sobre oferta, señales de
 
 ## Estado
 
-- **GitHub, fase GH-01.2:** código, datos y logos de UX-10.3 v1.0.12 versionados en fuentes editables y compilables.
+- **GitHub, fase GH-01.3:** código y datos versionados, QA automatizada en GitHub Actions y recuperación de versiones ensayada.
 - **Candidato v1.0.12:** reconstruible byte a byte, con SHA-256 `82f57a273302275b2458f854fbb7a583f674b578f0fbd5ef063b09bf7515e7c7`.
 - **Vercel:** última publicación documentada v1.0.9; este repositorio no activa despliegues automáticos.
 - **Alcance de la base:** 392 Oferta, 709 Búsquedas, 24 Demanda y 6 Decisión, total 1.131 registros.
@@ -39,6 +39,13 @@ Más detalles en [Compilación reproducible](docs/REPRODUCIBILITY.md), [GH-01.2]
 ## Criterios analíticos
 
 El catálogo reúne oferta publicada, búsquedas, señales de actividad y conceptos propuestos. Una señal de participación, una contratación institucional o la presencia de cursos **no demuestra** por sí misma compradores, ventas ni disposición a pagar. Los datos mantienen sus unidades, limitaciones y fuentes originales.
+
+## QA automatizada y recuperación
+
+- [GitHub Actions · QA - Build, datos y recuperación](https://github.com/seba-godoy/sdc-cursos-asincronicos/actions/workflows/quality.yml): push a `main`, PR hacia `main` y ejecución manual.
+- Matriz Python 3.11 y 3.12: integridad SHA-256, HTML autónomo, 11 pruebas, sintaxis JavaScript, detección de corrupción y simulación de `git revert` en copia temporal.
+- [Guía de recuperación segura](docs/RECOVERY.md) y [acta GH-01.3](docs/GH-01.3_AUDIT.md).
+- **Límite:** disponer de checks automáticos no implica por sí mismo que GitHub impida fusionar si fallan. La imposición de checks obligatorios mediante protección de `main` aún no está confirmada.
 
 ## Transparencia y seguridad
 
