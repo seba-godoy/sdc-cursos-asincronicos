@@ -1,0 +1,44 @@
+# Secretos y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.secrets.*
+credentials.json
+service-account*.json
+*token*.json
+
+# Temporales, cachés y entornos
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Datos internos, datos en bruto y exportaciones no revisadas
+/data/raw/
+/data/private/
+/data/exports/
+/private/
+/internal/
+/backups/
+*.sqlite
+*.db
+
+# Artefactos compilados: publicación controlada y explícita
+/dist/
+/build/
+/out/
+*.local.html
+
+# Configuración local de proveedores
+.vercel/
