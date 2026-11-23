@@ -9,8 +9,9 @@
 | GH-01.4 | 4/10 | **Completada**; publicación aprobada después | Preview, gates y release registrado |
 | UX-11.1 | 4/10 | **Completada 23-11-2026, QA aprobada** | 9.408 pares posibles; 164 coreferencias, 392 ofertas cribadas, contraevidencia |
 | UX-11.2 | 3+5+4+4/10 · microfases | **Completada y auditada 23-11-2026** | 188 O revisadas, 14 fuentes públicas contrastadas, matriz y contraevidencia |
-| UX-11.3 | 5/10 (estimada) | **Siguiente** | Comparativas por C001–C006 y pruebas falsadoras |
-| UX-11.4–11.5 | ≤5/10 cada una | Pendiente | Interfaz Conclusiones Cruzadas, QA y preview |
+| UX-11.3 | 3+4+4+4/10 en microfases | **Resultados en PR, pendiente QA** | Seis fichas de evidencia, sustitutos, diferenciación hipotética y falsadores |
+| UX-11.4 | 5/10 estimada | **Siguiente** | Rediseñar sección Conclusiones Cruzadas sin confundir hipótesis con hechos |
+| UX-11.5 | 4/10 estimada | Pendiente | QA transversal, preview y revisión antes de publicar |
 
 ## Cierre GH-01.2
 
@@ -73,11 +74,20 @@ La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada 
 - No se modifica el ranking C, los datos originales ni el HTML. Vercel se mantiene en v1.0.12.
 - **Estado: completada.** [PR #5](https://github.com/seba-godoy/sdc-cursos-asincronicos/pull/5) fusionado y [QA post-merge #16](https://github.com/seba-godoy/sdc-cursos-asincronicos/actions/runs/45220565282) SUCCESS con Python 3.11/3.12 (28 pruebas en cada entorno). [ZIP verificado de las 188 fichas y 14 contrastes en Drive](https://drive.google.com/file/d/1yFhUgzVzbfYcDGRyneiS8PIdKSzVsYWC/view).
 
-## Próxima UX-11.3 · Dificultad estimada 5/10
+## UX-11.3 · Seis fichas comparativas y falsadores · 23/11/2026
 
-**Qué hará:** sintetizar para cada uno de C001–C006 las evidencias O/D y los sustitutos contrastados, distinguir competencia parcial y brechas hipotéticas, y definir qué prueba falsaría el caso de negocio. Verificar expresamente si C003 y C002 continúan siendo prioridades condicionadas sin subir automáticamente sus puntajes.
+- Microfases de dificultad controlada: UX-11.3a (3/10, auditoría y modelo), UX-11.3b (4/10, hipótesis y contraevidencia), UX-11.3c (4/10, generador/QA) y UX-11.3d (4/10, persistencia).
+- [Informe de seis conceptos y criterios de decisión](UX-11.3_REPORT.md). [Políticas editoriales/hipótesis](../data/analysis/ux11_3_hypotheses.json), [generador reproducible](../scripts/ux11_3_cards.py) y [pruebas](../tests/test_ux11_3_cards.py).
+- Conserva los puntajes de referencia C003 **3,55/5** y C002 **3,45/5** como *prioridades condicionadas*, no oportunidades demostradas. Otros cuatro conceptos con estado de reserva, exploración o postergación según documentación existente.
+- Vincula las 24 señales D y las ofertas O seleccionadas, sin sumar unidades incompatibles, sin nueva prueba comercial, sin repetir fundaciones de estudios dependientes ni declarar vacíos de mercado.
+- Diseña seis **pruebas falsadoras NO EJECUTADAS**; en C003 se conserva el criterio previo **6 de 8 usuarios** como posible piloto futuro. La evidencia propia de O373/374 y los recursos gratuitos son condiciones clave antes de producir cursos.
+- La integración depende de PR y QA obligatorios Python 3.11/3.12. Ninguna edición a fuentes canónicas, rankings o Vercel en esta fase.
 
-**Por qué importa:** una revisión por títulos/tareas no valida la oportunidad; se requiere una comparación por resultado de aprendizaje, público, formato y evidencia de compra. Subdividir UX-11.3 si sus pasos superan 5/10.
+## Próxima UX-11.4 · Dificultad provisional 5/10
+
+**Qué hará:** implementar en la pestaña **Conclusiones Cruzadas** un recorrido simple: necesidad → evidencia favorable → sustitutos (incluida oferta propia) → diferencia hipotética → prueba pendiente → decisión condicionada. Incorporar vínculos O/D verificables, evitar equiparar cantidades de postulaciones o compras públicas a estudiantes/compradores de cursos, y mantener datos canónicos intactos.
+
+**Por qué importa:** ya existe base analítica de UX-11.1/11.2/11.3; ahora hay que presentarla a Juanra y DIMI de forma intuitiva y auditable. Si el trabajo real supera 5/10, subdividir UX-11.4 antes de desarrollar.
 
 ## Condiciones de despliegue
 
