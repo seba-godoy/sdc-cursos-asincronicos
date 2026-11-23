@@ -2,6 +2,7 @@
 import tempfile
 import unittest
 from pathlib import Path
+from scripts.ux11_1_crosswalk import ROOT
 from scripts.ux11_1_crosswalk import analyse, export
 
 class TestUX111(unittest.TestCase):
@@ -72,10 +73,20 @@ class TestUX111(unittest.TestCase):
             dest = Path(t)
             output = export(dest)
             self.assertEqual(output["universo_oxd"], 9408)
-            self.assertEqual(len((dest / "curados_164.csv").read_text(encoding="utf8").splitlines()), 165)
+            with (dest / "curados_164.csv").open(encoding="utf8", newline="") as f:
+                import csv
+                self.assertEqual(len(list(csv.DictReader(f))), 164)
             self.assertTrue((dest / "resumen.json").is_file())
             self.assertTrue((dest / "oferta_392_pantalla.csv").is_file())
             self.assertTrue((dest / "conceptos_6.json").is_file())
+            for generated, tracked in [
+                ("curados_164.csv", "data/analysis/ux11_1_curados_164.csv"),
+                ("oferta_392_pantalla.csv", "data/analysis/ux11_1_oferta_392_pantalla.csv"),
+                ("conceptos_6.json", "data/analysis/ux11_1_conceptos.json"),
+                ("resumen.json", "data/analysis/ux11_1_resumen.json"),
+            ]:
+                self.assertEqual((dest / generated).read_bytes(), (ROOT / tracked).read_bytes(),
+                                 "Salida versionada distinta: " + generated)
 
 if __name__ == "__main__":
     unittest.main()
