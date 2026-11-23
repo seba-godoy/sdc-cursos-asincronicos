@@ -1,0 +1,138 @@
+{
+  "phase": "UX-11.3",
+  "baseline": "v1.0.12",
+  "corte": "2026-11-23",
+  "nature": "Hipótesis interpretativas y pruebas futuras, no hallazgos primarios",
+  "rule": "No recalcular puntajes ni convertir referencias O/D en compradores; pruebas falsadoras no ejecutadas",
+  "cards": [
+    {
+      "id": "C001",
+      "audiencia": "Encargado/a administrativo o financiero de fundación pequeña que ejecuta convenios o subvenciones",
+      "resultado_practico": "Planilla semanal por convenio: saldo comprometido y disponible, desembolsos diferidos, alertas y acción responsable",
+      "propuesta_hipotesis": "Plantilla específicamente para fondos restringidos de OSFL, no curso genérico de contabilidad",
+      "ofertas_clave": [
+        "O314",
+        "O356",
+        "O375",
+        "O376",
+        "O020"
+      ],
+      "solapamiento_propio": [
+        "O375",
+        "O376"
+      ],
+      "riesgo_diferenciacion": "La formación gratuita financiera y la capacitación propia ya enseñan presupuestos y obligaciones; la necesidad específica de caja semanal por fondo no se ha medido de forma repetida",
+      "prueba_falsadora": "Contrastar con casos públicos documentados de convenios y con una planilla pública: si la planilla gratuita permite registrar restricciones y anticipar descalces sin adaptar contenidos, retirar hipótesis de curso diferenciado",
+      "evidencia_minima_para_avanzar": "Al menos dos situaciones públicas independientes de gestión de convenios donde se observe la tarea semanal, o evidencia verificable de uso recurrente; sin esa base, no justificar producción",
+      "decision_condicional": "RESERVA",
+      "motivo_decision": "Todas las tres señales D vinculadas son PARCIAL; no hay evidencia de compra de microcurso",
+      "compra_verificada": false
+    },
+    {
+      "id": "C002",
+      "audiencia": "Coordinador/a de programa social o responsable de seguimiento en OSC pequeña",
+      "resultado_practico": "Cierre mensual de un programa: tres fichas de indicadores, denominadores, brechas y un plan de acción con responsable y fecha",
+      "propuesta_hipotesis": "Ejecución completa de una rutina mensual con datos de programa OSFL, más allá de explicar KPI o software BI",
+      "ofertas_clave": [
+        "O005",
+        "O357",
+        "O373",
+        "O391",
+        "O392"
+      ],
+      "solapamiento_propio": [
+        "O373"
+      ],
+      "riesgo_diferenciacion": "O005 es taller gratuito asincrónico con tablero; Simón de Cirene ya lista Monitoreo y Evaluación como asincrónico; no se conocen ejercicios internos de ambos",
+      "prueba_falsadora": "Revisar temario y ejercicios accesibles de O373 y O005: si entregan y evalúan un cierre mensual con brechas, responsables y plazos para OSFL, no ofrecer un nuevo curso duplicado",
+      "evidencia_minima_para_avanzar": "Demostrar que el ejercicio de cierre mensual propuesto no está ya resuelto en la oferta propia y gratuita; preparar demostración con datos públicos de programa social",
+      "decision_condicional": "PRIORIDAD_CONDICIONAL_2",
+      "motivo_decision": "Ref. previa 3,45/5, sin nuevos puntajes; evidencias de formación y rutina, pero competencia específica",
+      "compra_verificada": false
+    },
+    {
+      "id": "C003",
+      "audiencia": "Equipo de fundación, corporación u OSC que prepara y revisa una postulación a fondos chilenos",
+      "resultado_practico": "Revisión autónoma de borrador: pauta fechada, 3 controles objetivos, errores señalados, listado de correcciones y 1 consulta que requiere especialista",
+      "propuesta_hipotesis": "Aprender a autocorregir una propuesta concreta antes de enviar, diferenciándose de webinar informativo y asesoría sincrónica",
+      "ofertas_clave": [
+        "O028",
+        "O374",
+        "O388",
+        "O389",
+        "O390"
+      ],
+      "solapamiento_propio": [
+        "O374"
+      ],
+      "riesgo_diferenciacion": "Existen guías y videos gratuitos, checklist y servicios con revisiones humanas escritas; ni la corrección autónoma ni disposición a pagar están demostradas",
+      "prueba_falsadora": "Aplicar un caso nuevo y la misma rúbrica a ocho usuarios del público objetivo (validación futura, no ejecutada); el criterio heredado es que al menos seis corrijan tres controles objetivos y deriven una duda a especialista sin tutor",
+      "evidencia_minima_para_avanzar": "Revisar la pauta y ejercicios accesibles de O374 y las reglas del fondo concreto; demostrar un caso corregible sin tutor y distinguir claramente controles objetivos de juicios expertos",
+      "decision_condicional": "PRIORIDAD_CONDICIONAL_1",
+      "motivo_decision": "Ref. previa 3,55/5 sin revisión; postular es tarea observada pero postulaciones no equivalen a matrículas",
+      "compra_verificada": false
+    },
+    {
+      "id": "C004",
+      "audiencia": "Responsable de socios o recaudación en una OSC pequeña que no dispone de CRM dedicado",
+      "resultado_practico": "Base de donantes segmentada con campos de responsable, próximo contacto, estado y consentimiento/documentación mínima",
+      "propuesta_hipotesis": "Rutina simple y replicable para seguimiento de donantes pequeños sin CRM pagado, no capacitación genérica de email marketing",
+      "ofertas_clave": [
+        "O352",
+        "O003",
+        "O025",
+        "O057",
+        "O166"
+      ],
+      "solapamiento_propio": [],
+      "riesgo_diferenciacion": "Los casos de uso de Salesforce corresponden a organizaciones grandes; los cursos gratuitos de segmentación y fundraising cubren temas cercanos",
+      "prueba_falsadora": "Comparar con plantillas públicas gratuitas de CRM/gestión de donantes: si se logra el mismo seguimiento con instrucciones breves sin curso adicional, no priorizar un producto pagado",
+      "evidencia_minima_para_avanzar": "Encontrar en documentos de OSC pequeñas evidencia independiente de una rutina de seguimiento y segmentación manual y necesidad de instrucción; no inferirlo desde grandes CRM",
+      "decision_condicional": "EXPLORATORIA",
+      "motivo_decision": "Ref. previa 3,30/5; señales de uso y formación, pero falta audiencia/comprador equiparable",
+      "compra_verificada": false
+    },
+    {
+      "id": "C005",
+      "audiencia": "Coordinador/a de voluntariado de fundación u OSC que incorpora nuevos participantes",
+      "resultado_practico": "Kit operativo de roles, pauta de inducción, checklist inicial y calendario de seguimiento de una cohorte",
+      "propuesta_hipotesis": "Material autónomo contextualizado para fundaciones, distinto de taller en vivo y manual genérico",
+      "ofertas_clave": [
+        "O004",
+        "O379",
+        "O381",
+        "O382",
+        "O013"
+      ],
+      "solapamiento_propio": [],
+      "riesgo_diferenciacion": "Ya existen manuales abiertos y formación práctica en vivo; D013 corresponde a personal universitario y no a coordinadores OSC",
+      "prueba_falsadora": "Examinar si el taller O004 y los manuales O381/O382 entregan ya roles, inducción y seguimiento reutilizables; si cubren el kit sin costo ni adaptación, no desarrollar curso separado",
+      "evidencia_minima_para_avanzar": "Documentar problemas recurrentes de inducción en al menos dos OSC distintas con evidencia pública y una tarea que no resuelvan los manuales",
+      "decision_condicional": "POSPONER",
+      "motivo_decision": "Ref. previa 2,95/5, solo dos señales documentales y sustitutos de práctica",
+      "compra_verificada": false
+    },
+    {
+      "id": "C006",
+      "audiencia": "Equipo de ejecución de un proyecto social con convenio y evidencias compartidas",
+      "resultado_practico": "Registro semanal colaborativo de tareas y respaldos con permisos, responsables, fecha y trazabilidad de decisiones",
+      "propuesta_hipotesis": "Ejercicio centrado en evidencia documental de convenios OSFL, no aprender Trello/Excel/gestión de proyectos en general",
+      "ofertas_clave": [
+        "O250",
+        "O026",
+        "O255",
+        "O367",
+        "O381"
+      ],
+      "solapamiento_propio": [
+        "O381"
+      ],
+      "riesgo_diferenciacion": "Las plantillas gratuitas y la formación propia de planificación pueden cubrir el registro básico; D014 y D012 son el mismo proyecto y no dos organizaciones independientes",
+      "prueba_falsadora": "Aplicar plantillas públicas de tareas y evidencias a un convenio publicado: si registran permisos, respaldos y trazabilidad sin instrucción adicional, no producir otro curso",
+      "evidencia_minima_para_avanzar": "Identificar al menos dos programas distintos con uso verificable de registros colaborativos y una brecha concreta de trazabilidad no resuelta por plantillas abiertas",
+      "decision_condicional": "POSPONER",
+      "motivo_decision": "Ref. previa 2,70/5; adopción del flujo por fundaciones no demostrada y alternativas de bajo costo",
+      "compra_verificada": false
+    }
+  ]
+}
