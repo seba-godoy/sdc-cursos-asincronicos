@@ -10,8 +10,8 @@
 | UX-11.1 | 4/10 | **Completada 23-11-2026, QA aprobada** | 9.408 pares posibles; 164 coreferencias, 392 ofertas cribadas, contraevidencia |
 | UX-11.2 | 3+5+4+4/10 · microfases | **Completada y auditada 23-11-2026** | 188 O revisadas, 14 fuentes públicas contrastadas, matriz y contraevidencia |
 | UX-11.3 | 3+4+4+4/10 en microfases | **Completada y auditada 23-11-2026** | Seis fichas O/D, falsadores no ejecutados y QA Python 3.11/3.12 |
-| UX-11.4 | 5/10 estimada | **Siguiente** | Rediseñar sección Conclusiones Cruzadas sin confundir hipótesis con hechos |
-| UX-11.5 | 4/10 estimada | Pendiente | QA transversal, preview y revisión antes de publicar |
+| UX-11.4 | 4+5+4+4/10 en microfases | **Implementada en PR; QA y candidato pendientes** | Nueva interfaz de seis fichas, compilación aislada sin cambiar v1.0.12 |
+| UX-11.5 | 4/10 estimada | **Siguiente** | QA visual transversal, preview aislado y aprobación antes de producción |
 
 ## Cierre GH-01.2
 
@@ -88,6 +88,22 @@ La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada 
 **Qué hará:** implementar en la pestaña **Conclusiones Cruzadas** un recorrido simple: necesidad → evidencia favorable → sustitutos (incluida oferta propia) → diferencia hipotética → prueba pendiente → decisión condicionada. Incorporar vínculos O/D verificables, evitar equiparar cantidades de postulaciones o compras públicas a estudiantes/compradores de cursos, y mantener datos canónicos intactos.
 
 **Por qué importa:** ya existe base analítica de UX-11.1/11.2/11.3; ahora hay que presentarla a Juanra y DIMI de forma intuitiva y auditable. Si el trabajo real supera 5/10, subdividir UX-11.4 antes de desarrollar.
+
+## UX-11.4 · Interfaz candidata Conclusiones Cruzadas · 23/11/2026
+
+- Se dividió en cuatro microfases: **11.4a (4/10)** conservar el baseline v1.0.12, **11.4b (5/10)** nueva experiencia, **11.4c (4/10)** pruebas y artefactos, **11.4d (4/10)** auditoría/persistencia.
+- [Informe y alcance](UX-11.4_REPORT.md), [JS independiente](../src/ux11_4/render_concepts.js), [estilos](../src/ux11_4/conclusions.css) y [compilador candidato](../scripts/build_ux11_4.py), con [tests diferenciales](../tests/test_ux11_4_candidate.py).
+- Pestaña Conclusiones Cruzadas: 392 O, 24 D, 188 O cribadas y 6 C; destaca C003 y C002 como **hipótesis condicionadas con score histórico**, sin recalcular; selector accesible de seis fichas; pasos necesidad, evidencia, alternativas, hipótesis, prueba falsadora y decisión.
+- Los vínculos originales O/D/C abren sus fichas; no se declara comercialización validada, sustitución completa ni experimentos ejecutados.
+- El empaquetador **verifica v1.0.12 byte a byte antes de construir el candidato** y conserva sus tres JSON canónicos y logos. Genera HTML autónomo en `dist/ux11_4/index.html` y manifiesto `production_approved=false`.
+- Integración condicionada a PR, QA Python 3.11/3.12, auditoría de diff y copia persistente del candidato.
+- **La producción de Vercel queda intacta hasta aprobación expresa.** UX-11.5 realizará revisión visual/funcional y preview de la nueva candidata.
+
+## Próxima UX-11.5 · Dificultad inicial 4/10
+
+**Qué hará:** pruebas visuales reales de Conclusiones Cruzadas (selector, fuentes, móvil/escritorio), revisar contrastes y posibles errores JS, entregar preview aislado y recopilar aprobación del responsable. Se subdividirá si supera 5/10.
+
+**Por qué importa:** la validación del HTML y los JSON no sustituye una revisión de UX en navegador. No desplegar producción por un push a GitHub.
 
 ## Condiciones de despliegue
 
