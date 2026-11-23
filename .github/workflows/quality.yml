@@ -84,5 +84,20 @@ jobs:
             dist/ux11_3/resumen.json
           retention-days: 14
           if-no-files-found: error
+      - name: Validar candidato UX-11.4, manteniendo baseline v1.0.12
+        run: |
+          python -m scripts.build_ux11_4 --check
+          python -m scripts.build_ux11_4
+          node --check src/ux11_4/render_concepts.js
+      - name: Respaldar HTML candidato UX-11.4 para revision
+        if: matrix.python-version == '3.12' && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v6
+        with:
+          name: sdc-ux11-4-candidato
+          path: |
+            dist/ux11_4/index.html
+            dist/ux11_4/candidate-manifest.json
+          retention-days: 14
+          if-no-files-found: error
       - name: Confirmar que no se alteraron archivos rastreados
         run: git diff --exit-code && git diff --cached --exit-code
