@@ -1,6 +1,6 @@
 /* UX-11.4 candidate only. The baseline v1.0.12 is built separately and unchanged. */
 const ux4Data=JSON.parse(document.getElementById('ux114-cards').textContent);
-const ux4Cards=ux4Data.cards;
+const ux4Cards=Array.isArray(ux4Data)?ux4Data:ux4Data.cards;
 const ux4Map=new Map(ux4Cards.map(c=>[c.concepto_id,c]));
 let ux4Selected='C003';
 const ux4Status={
