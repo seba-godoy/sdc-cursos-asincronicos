@@ -118,8 +118,8 @@ def evaluate() -> tuple[list[dict],dict]:
                   r"organizaciones comunitarias|proyectos sociales|ben[eé]ficas",audience,re.I))
         fmt=str(o["Formato"] or "")
         mode=("MIXTO_O_AMBIGUO" if "asincr" in fmt.lower() and
-              re.search("sincr|vivo|zoom|presencial",fmt,re.I) else
-              "SINCRONICO_O_PRESENCIAL" if re.search("sincr|vivo|zoom|presencial",fmt,re.I) else
+              re.search(r"\bsincr|\ben vivo\b|\bzoom\b|presencial",fmt,re.I) else
+              "SINCRONICO_O_PRESENCIAL" if re.search(r"\bsincr|\ben vivo\b|\bzoom\b|presencial",fmt,re.I) else
               "ASINCRONICO_DECLARADO" if re.search("asincr|autogestionad|a ritmo propio",fmt,re.I) else
               "RECURSO_NO_CURSO" if re.search("gu[ií]a|pdf|art[ií]culo|checklist",fmt+" "+o["Producto o recurso"],re.I) else
               "FORMATO_INSUFICIENTE")
