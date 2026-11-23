@@ -82,10 +82,15 @@
         "O003",
         "O025",
         "O057",
-        "O166"
+        "O166",
+        "O377",
+        "O379"
       ],
-      "solapamiento_propio": [],
-      "riesgo_diferenciacion": "Los casos de uso de Salesforce corresponden a organizaciones grandes; los cursos gratuitos de segmentación y fundraising cubren temas cercanos",
+      "solapamiento_propio": [
+        "O377",
+        "O379"
+      ],
+      "riesgo_diferenciacion": "Los casos Salesforce documentados corresponden a organizaciones grandes; los cursos gratuitos de segmentación y fundraising cubren temas cercanos y Simón de Cirene ya dispone de material sobre gestión OSFL; no está probado el flujo para equipos pequeños.",
       "prueba_falsadora": "Comparar con plantillas públicas gratuitas de CRM/gestión de donantes: si se logra el mismo seguimiento con instrucciones breves sin curso adicional, no priorizar un producto pagado",
       "evidencia_minima_para_avanzar": "Encontrar en documentos de OSC pequeñas evidencia independiente de una rutina de seguimiento y segmentación manual y necesidad de instrucción; no inferirlo desde grandes CRM",
       "decision_condicional": "EXPLORATORIA",
@@ -104,7 +109,11 @@
         "O382",
         "O013"
       ],
-      "solapamiento_propio": [],
+      "solapamiento_propio": [
+        "O379",
+        "O381",
+        "O382"
+      ],
       "riesgo_diferenciacion": "Ya existen manuales abiertos y formación práctica en vivo; D013 corresponde a personal universitario y no a coordinadores OSC",
       "prueba_falsadora": "Examinar si el taller O004 y los manuales O381/O382 entregan ya roles, inducción y seguimiento reutilizables; si cubren el kit sin costo ni adaptación, no desarrollar curso separado",
       "evidencia_minima_para_avanzar": "Documentar problemas recurrentes de inducción en al menos dos OSC distintas con evidencia pública y una tarea que no resuelvan los manuales",
