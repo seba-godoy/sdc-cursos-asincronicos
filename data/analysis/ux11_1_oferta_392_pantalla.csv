@@ -1,0 +1,393 @@
+oferta_id,curso_o_recurso,tema_sugerido_por_texto,enlace_conceptual_preexistente,estado_revision
+O001,Ciclo de Talleres FECU Social 2026,C002,NO,REVISION_PENDIENTE
+O002,FortalecidOS,,NO,REVISION_PENDIENTE
+O003,Academia de Fundraising,C004,SI,REFERENCIA_C_CANONICA
+O004,Taller de Gestión del Voluntariado 2026,C005,SI,REFERENCIA_C_CANONICA
+O005,Objetivos SMART y KPI en Organizaciones Sociales,C002,SI,REFERENCIA_C_CANONICA
+O006,Curso de Elaboración de Proyectos,,SI,REFERENCIA_C_CANONICA
+O007,Capacitaciones FFOIP 2026,,SI,REFERENCIA_C_CANONICA
+O008,Manual de Ejecución FFOIP 2026,,NO,REVISION_PENDIENTE
+O009,Capacitación a postulación de Fondos Concursables,C003,NO,REVISION_PENDIENTE
+O010,Gestión y planificación de presupuesto,C001,NO,REVISION_PENDIENTE
+O011,Diplomado en Dirección de Fundaciones y Proyectos Sociales,,NO,REVISION_PENDIENTE
+O012,Tercer sector: Fundaciones y asociaciones: donaciones y evaluación de impacto,C002,NO,REVISION_PENDIENTE
+O013,Formación en Voluntariado y Proyectos Sociales con Impacto,C005,NO,REVISION_PENDIENTE
+O014,Escuela Formativa Territorial en Formulación y Postulación de Proyectos,C003,NO,REVISION_PENDIENTE
+O015,Curso de Evaluación de Proyectos Sociales,C002,NO,REVISION_PENDIENTE
+O016,"Ideación y Diseño de Proyectos sociales, comunitarios, deportivos y culturales",,NO,REVISION_PENDIENTE
+O017,Formulación de Proyectos Sociales y Fondos Concursables,C003,SI,REFERENCIA_C_CANONICA
+O018,Rendición de Cuentas y Transparencia en Organizaciones Comunitarias,,NO,REVISION_PENDIENTE
+O019,Postulación a Fondos Concursables y Proyectos Comunitarios,C003,SI,REFERENCIA_C_CANONICA
+O020,¿Cómo elaborar un Flujo de Caja?,C001,NO,REVISION_PENDIENTE
+O021,Costos y Presupuestos para MIPYME's,C001,NO,REVISION_PENDIENTE
+O022,Planificación Financiera: Estados Financieros Presupuestados,C001,SI,REFERENCIA_C_CANONICA
+O023,Herramientas de gestión de tiempo para proyectos,,NO,REVISION_PENDIENTE
+O024,Análisis Básico de Estados Financieros,,NO,REVISION_PENDIENTE
+O025,Cómo hacer un Plan de Fundraising Básico para ONGs,C004,SI,REFERENCIA_C_CANONICA
+O026,Gestión de Proyectos de Desarrollo Social,C006,NO,REVISION_PENDIENTE
+O027,Marco Lógico para Proyectos Sociales,,NO,REVISION_PENDIENTE
+O028,GESTIÓN Y FINANCIAMIENTO DE PROYECTOS DE ALTO IMPACTO,,SI,REFERENCIA_C_CANONICA
+O029,Presentaciones Efectivas para ONGs,,NO,REVISION_PENDIENTE
+O030,Presupuestos Costos y Avances de Proyectos con Excel,C001,NO,REVISION_PENDIENTE
+O031,"Tesorería y Capital de Trabajo: Liquidez, Crédito y Cobranza",C001,NO,REVISION_PENDIENTE
+O032,Fundamentos & Sistema Dashboard de Seguimiento de Proyectos,C006,NO,REVISION_PENDIENTE
+O033,Previsión de tesorería en tu Start-up,C001,NO,REVISION_PENDIENTE
+O034,Curso de Conciliaciones Bancarias,C006,NO,REVISION_PENDIENTE
+O035,Contabilidad de costos,C001,NO,REVISION_PENDIENTE
+O036,Planeación Financiera,C001,NO,REVISION_PENDIENTE
+O037,Finanzas para Start ups,"C001, C006",NO,REVISION_PENDIENTE
+O038,Análisis de Estados Contables y Presupuestación,C001,NO,REVISION_PENDIENTE
+O039,Microsoft Excel Aplicado a la Contabilidad / Excel Contable,"C001, C006",NO,REVISION_PENDIENTE
+O040,Tablas Dinámicas en Excel - Dashboards y Análisis de Datos,,NO,REVISION_PENDIENTE
+O041,Curso Excel - Dashboard - Power Query - Power Pivot -DAX,,NO,REVISION_PENDIENTE
+O042,Análisis de datos en Excel con Tablas Dinámicas y Dashboards,,NO,REVISION_PENDIENTE
+O043,Curso Power BI – Análisis de Datos y Business Intelligence,C002,NO,REVISION_PENDIENTE
+O044,Dashboards con Google Sheets: De Datos Sucios a Reportes,C002,NO,REVISION_PENDIENTE
+O045,Gestión de proyectos - Proyectos pequeños,C006,NO,REVISION_PENDIENTE
+O046,Gestión de Proyectos en 60 Minutos: Fundamentos 2026,C006,NO,REVISION_PENDIENTE
+O047,"Gestión de riesgos en proyectos: plan, registro y análisis",C006,NO,REVISION_PENDIENTE
+O048,Gestión de Finanzas y Costos del Proyecto - PMBOK 8,C001,NO,REVISION_PENDIENTE
+O049,Gestión de Proyectos desde Cero: Caso Práctico + Plantillas,C006,NO,REVISION_PENDIENTE
+O050,INDICADORES de Gestión - Diseño y Control,C002,NO,REVISION_PENDIENTE
+O051,Especialista en Indicadores de Gestión (KPIs) + Power BI,C002,SI,REFERENCIA_C_CANONICA
+O052,Indicadores KPI´s en la Estrategia del área y de la Empresa,C002,NO,REVISION_PENDIENTE
+O053,Trabajar con OKRs: Conocimientos y Creencias Fundamentales,,NO,REVISION_PENDIENTE
+O054,EVALUACION de IMPACTO con STATA,C002,NO,REVISION_PENDIENTE
+O055,Monitoring and Evaluation (M&E) in Development Projects,C002,NO,REVISION_PENDIENTE
+O056,Fundraising: Ask and Raise Contributions for Your Charity,C004,NO,REVISION_PENDIENTE
+O057,"Fundraising Management: Donor Relations, Grants, & Campaign","C003, C004",SI,REFERENCIA_C_CANONICA
+O058,Aprende a usar un CRM (Customer Relationship Management),C004,NO,REVISION_PENDIENTE
+O059,Canva para presentar proyectos profesionales,,NO,REVISION_PENDIENTE
+O060,Storytelling para Redes Sociales y Marca Personal,,NO,REVISION_PENDIENTE
+O061,Secretos de las Presentaciones Efectivas : Storytelling,,NO,REVISION_PENDIENTE
+O062,Inclúyete: Haz realidad tu proyecto de voluntariado,C005,NO,REVISION_PENDIENTE
+O063,Gobernanza y control interno: para empezar desde cero,,NO,REVISION_PENDIENTE
+O064,Liderazgo y Gestión de equipos | Certificación,,NO,REVISION_PENDIENTE
+O065,Delegación +,C006,NO,REVISION_PENDIENTE
+O066,Comunicación Avanzada / Feedback / Comentarios Constructivos,,NO,REVISION_PENDIENTE
+O067,Finanzas para freelancers y pequeñas empresas,C001,NO,REVISION_PENDIENTE
+O068,Gestión del dinero y finanzas para creativos,C001,NO,REVISION_PENDIENTE
+O069,Elaboración de presupuestos para freelancers y creativos,C001,NO,REVISION_PENDIENTE
+O070,Diseño de producto: pon precio a tus creaciones,,NO,REVISION_PENDIENTE
+O071,Cómo emprender y gestionar un estudio creativo,,NO,REVISION_PENDIENTE
+O072,Introducción a la gestión de proyectos,C006,NO,REVISION_PENDIENTE
+O073,Design Thinking para gestión de proyectos,C006,NO,REVISION_PENDIENTE
+O074,Gestión de proyectos para creativos,C006,NO,REVISION_PENDIENTE
+O075,Introducción a Notion para proyectos creativos,,NO,REVISION_PENDIENTE
+O076,Especialización en Gestión de Proyectos,C006,NO,REVISION_PENDIENTE
+O077,Técnicas para mejorar tu productividad,C006,NO,REVISION_PENDIENTE
+O078,Herramientas para mejorar tu productividad,,NO,REVISION_PENDIENTE
+O079,Técnicas de gestión del tiempo para creadores y creativos,C006,NO,REVISION_PENDIENTE
+O080,Productividad eficiente para creativos,,NO,REVISION_PENDIENTE
+O081,Introducción a la visualización de datos,C006,NO,REVISION_PENDIENTE
+O082,Principios básicos sobre la visualización de datos,,NO,REVISION_PENDIENTE
+O083,Visualización de datos para proyectos editoriales,,NO,REVISION_PENDIENTE
+O084,Visualización de datos: diseña infografías en Illustrator,,NO,REVISION_PENDIENTE
+O085,Visualización de datos para diseños creativos y narrativos,,NO,REVISION_PENDIENTE
+O086,Storytelling visual a través de la infografía,,NO,REVISION_PENDIENTE
+O087,Visualización de datos creativa para principiantes,,NO,REVISION_PENDIENTE
+O088,Estrategias de marketing basadas en data,,NO,REVISION_PENDIENTE
+O089,Analítica en Redes Sociales para principiantes,,NO,REVISION_PENDIENTE
+O090,Google Analytics: introducción al análisis de datos digitales,,NO,REVISION_PENDIENTE
+O091,Estrategia e investigación para marcas y proyectos personales,,NO,REVISION_PENDIENTE
+O092,Estrategia de marca: creatividad centrada en los usuarios,,NO,REVISION_PENDIENTE
+O093,Introducción a la investigación UX,,NO,REVISION_PENDIENTE
+O094,Diseño UX: define la experiencia omnicanal de usuarios,,NO,REVISION_PENDIENTE
+O095,Diseño de presentaciones en Canva,,NO,REVISION_PENDIENTE
+O096,Diseño de presentaciones para creativos,,NO,REVISION_PENDIENTE
+O097,Presentación efectiva de propuestas creativas,C003,NO,REVISION_PENDIENTE
+O098,Presentaciones para clientes con IA: Propuestas más inteligentes en la mitad de tiempo,C003,NO,REVISION_PENDIENTE
+O099,Técnicas de presentación: de la diapositiva al discurso,,NO,REVISION_PENDIENTE
+O100,Oratoria para negocios: cómo comunicar y convencer,,NO,REVISION_PENDIENTE
+O101,Storytelling y comunicación para vender proyectos creativos,,NO,REVISION_PENDIENTE
+O102,Técnicas de storytelling para transmitir tu mensaje,,NO,REVISION_PENDIENTE
+O103,Estrategias de storytelling para redes sociales,,NO,REVISION_PENDIENTE
+O104,Comunicación creativa y eficiente para tus proyectos,,NO,REVISION_PENDIENTE
+O105,Historias de interés humano: da vida a las narrativas,,NO,REVISION_PENDIENTE
+O106,"Estrategia para redes sociales: crea, gestiona y lanza campañas",,NO,REVISION_PENDIENTE
+O107,Plan de marketing digital para tu negocio,,NO,REVISION_PENDIENTE
+O108,Estrategia de marketing digital para redes sociales,,NO,REVISION_PENDIENTE
+O109,Introducción al e-mail marketing con Mailchimp,,NO,REVISION_PENDIENTE
+O110,Creación de estrategias de email marketing con Mailchimp,,NO,REVISION_PENDIENTE
+O111,Email marketing para impulsar tu negocio,,NO,REVISION_PENDIENTE
+O112,Creación de newsletters efectivas desde cero,,NO,REVISION_PENDIENTE
+O113,Campañas de crowdfunding desde cero,,NO,REVISION_PENDIENTE
+O114,Campaña de crowdfunding para proyectos artísticos personales,,NO,REVISION_PENDIENTE
+O115,Introducción al Community Management con IA,,NO,REVISION_PENDIENTE
+O116,Trabajo en equipo y diseño colaborativo,,NO,REVISION_PENDIENTE
+O117,Técnicas de negociación y venta para creativos,,NO,REVISION_PENDIENTE
+O118,Técnicas de actuación para una comunicación efectiva,,NO,REVISION_PENDIENTE
+O119,Técnicas de comunicación para dar discursos poderosos,,NO,REVISION_PENDIENTE
+O120,Trabajar desde cualquier lugar: Especialización en trabajo remoto,,NO,REVISION_PENDIENTE
+O121,Google Sheets para proyectos creativos y negocios,"C001, C006",NO,REVISION_PENDIENTE
+O122,Fundamentos de las finanzas: Control y reducción de costes,C001,NO,REVISION_PENDIENTE
+O123,Fundamentos de la gestión de proyectos: Presupuestos y beneficios,"C001, C006",NO,REVISION_PENDIENTE
+O124,Fundamentos de la contabilidad,"C001, C006",NO,REVISION_PENDIENTE
+O125,Excel: Tablas dinámicas (Office 365/Microsoft 365),C006,NO,REVISION_PENDIENTE
+O126,Excel: Power Query en profundidad,,NO,REVISION_PENDIENTE
+O127,Excel y Power BI: integración práctica para el análisis de datos,C002,NO,REVISION_PENDIENTE
+O128,"Crea un dashboard comercial con Excel, Power Query y Power Pivot","C002, C006",NO,REVISION_PENDIENTE
+O129,Excel: Power Query para principiantes,C006,NO,REVISION_PENDIENTE
+O130,Google Hojas de cálculo esencial,C006,NO,REVISION_PENDIENTE
+O131,Fundamentos de la gestión de proyectos,C006,NO,REVISION_PENDIENTE
+O132,Fundamentos de la gestión de proyectos: Calendarios,C006,NO,REVISION_PENDIENTE
+O133,Fundamentos de la gestión de proyectos: Equipos,C006,NO,REVISION_PENDIENTE
+O134,Fundamentos de la gestión de proyectos: Riesgos,C006,NO,REVISION_PENDIENTE
+O135,Cómo medir el rendimiento de tu equipo,,NO,REVISION_PENDIENTE
+O136,OKR: Cómo establecer metas que generen resultados,,NO,REVISION_PENDIENTE
+O137,Visualización de datos para análisis de datos,C002,NO,REVISION_PENDIENTE
+O138, Aprende a crear un dashboard intuitivo e impactante desde cero,,NO,REVISION_PENDIENTE
+O139,Storyboarding para proyectos y presentaciones,,NO,REVISION_PENDIENTE
+O140,"Cómo presentar, mantener el rumbo y enganchar a tu público",,NO,REVISION_PENDIENTE
+O141,Fundamentos de la narrativa o storytelling,C003,NO,REVISION_PENDIENTE
+O142, Fundamentos del marketing online: Email marketing,,NO,REVISION_PENDIENTE
+O143,Liderazgo y trabajo en equipo,,NO,REVISION_PENDIENTE
+O144,Cómo gestionar equipos de trabajo,,NO,REVISION_PENDIENTE
+O145,Conectarse y colaborar en un lugar de trabajo virtual o híbrido,,NO,REVISION_PENDIENTE
+O146,Cómo gestionar reuniones efectivas y productivas,,NO,REVISION_PENDIENTE
+O147,Fundamentos de la planificación estratégica,,NO,REVISION_PENDIENTE
+O148,Fundamentos de las finanzas: Comprensión de informes financieros,C001,NO,REVISION_PENDIENTE
+O149,Finanzas para pequeñas empresas,C001,NO,REVISION_PENDIENTE
+O150,Excel para contabilidad,C001,NO,REVISION_PENDIENTE
+O151,"Control de gestión y punto de equilibrio con Excel, Power Query, Power Pivot e IA",,NO,REVISION_PENDIENTE
+O152,Power BI esencial,C002,NO,REVISION_PENDIENTE
+O153,Power BI: Modelado de datos con Power Query,C002,NO,REVISION_PENDIENTE
+O154,Gestión de proyectos: Prevención del deslizamiento de alcance,C006,NO,REVISION_PENDIENTE
+O155,Fundamentos de la gestión de proyectos: Calidad,C006,NO,REVISION_PENDIENTE
+O156,Fundamentos de la gestión de proyectos: Cambios,C006,NO,REVISION_PENDIENTE
+O157,"Gestión de equipos mediante OKR's o misiones, objetivos y resultados clave",C006,NO,REVISION_PENDIENTE
+O158,Fundamentos de las presentaciones profesionales en la era de la IA,,NO,REVISION_PENDIENTE
+O159,Cómo hablar en público y hacer presentaciones,,NO,REVISION_PENDIENTE
+O160,Fundamentos esenciales del marketing digital,,NO,REVISION_PENDIENTE
+O161,Fundamentos del Marketing en Redes Sociales,,NO,REVISION_PENDIENTE
+O162,Cómo liderar reuniones individuales productivas,,NO,REVISION_PENDIENTE
+O163,Cómo delegar tareas en la empresa,C006,NO,REVISION_PENDIENTE
+O164,Cómo tener conversaciones difíciles,,NO,REVISION_PENDIENTE
+O165,Cómo liderar sin autoridad formal,,NO,REVISION_PENDIENTE
+O166,"Aprovechar la IA en tu rol dentro de una organización sin ánimo de lucro, por Microsoft y NetHope",C004,NO,REVISION_PENDIENTE
+O167,Emprendimiento con éxito: Diseña tu plan financiero,,NO,REVISION_PENDIENTE
+O168,Excel para análisis financiero y finanzas corporativas (Office 365/Microsoft 365),C001,NO,REVISION_PENDIENTE
+O169,Nonprofit Management Foundations,,NO,REVISION_PENDIENTE
+O170,Navigating Challenges in Nonprofit Management,C004,NO,REVISION_PENDIENTE
+O171,Kit básico (para evitar los errores más frecuentes) de finanzas,C001,NO,REVISION_PENDIENTE
+O172,Analiza la situación financiera de tu negocio,,NO,REVISION_PENDIENTE
+O173,Análisis de Negocios con Estados Financieros,,NO,REVISION_PENDIENTE
+O174,Fundamentos de Finanzas Empresariales,C001,NO,REVISION_PENDIENTE
+O175,Contabilidad para no contadores,C001,NO,REVISION_PENDIENTE
+O176,Conociendo Costos,,NO,REVISION_PENDIENTE
+O177,Costos para los Negocios,,NO,REVISION_PENDIENTE
+O178,Finanzas para profesionales no financieros,C001,NO,REVISION_PENDIENTE
+O179,Crear un Informe Financiero con Microsoft Excel,,NO,REVISION_PENDIENTE
+O180,Build a Budget and Analyze Variance using Google Sheets,C001,NO,REVISION_PENDIENTE
+O181,Creating a Budget with Microsoft Excel,C001,NO,REVISION_PENDIENTE
+O182,Crear Gráficos y Paneles con Microsoft Excel,,NO,REVISION_PENDIENTE
+O183,Usar fórmulas y funciones básicas en Microsoft Excel,,NO,REVISION_PENDIENTE
+O184,Google Sheets en Español,C006,NO,REVISION_PENDIENTE
+O185,Google Sheets - Advanced Topics en español,,NO,REVISION_PENDIENTE
+O186,Excel: creación de un panel gráfico de control empresarial,C002,NO,REVISION_PENDIENTE
+O187,Power BI for Beginners: Interactive Dashboard Fundamentals,C002,NO,REVISION_PENDIENTE
+O188,Visualización de Datos - Gestión Empresarial,,NO,REVISION_PENDIENTE
+O189,Crear una hoja para Gestionar Proyectos en Microsoft Excel,,NO,REVISION_PENDIENTE
+O190,Planificación del proyecto: reunir todos los elementos,,NO,REVISION_PENDIENTE
+O191,Gestión del alcance: el qué de la triple restricción,,NO,REVISION_PENDIENTE
+O192,Inicio y planificación de proyectos,,NO,REVISION_PENDIENTE
+O193,Iniciación y Planificación de Proyectos,,NO,REVISION_PENDIENTE
+O194,Iniciación del proyecto: Cómo iniciar un proyecto exitoso,,NO,REVISION_PENDIENTE
+O195,Gestión de proyectos: las bases del éxito,C006,NO,REVISION_PENDIENTE
+O196,Gestión de riesgos y cambios de proyectos,,NO,REVISION_PENDIENTE
+O197,Aspectos básicos de la planificación y la gestión de proyectos,C006,NO,REVISION_PENDIENTE
+O198,Ejecución del proyecto: Ejecutar el proyecto,,NO,REVISION_PENDIENTE
+O199,Programación y presupuesto del proyecto,C001,NO,REVISION_PENDIENTE
+O200,Diseño de Proyectos de Desarrollo,,NO,REVISION_PENDIENTE
+O201,Herramientas de gestión de proyectos de desarrollo,C006,NO,REVISION_PENDIENTE
+O202,Proyecto Final: Diseño y Gestión de Proyectos de Desarrollo,C006,NO,REVISION_PENDIENTE
+O203,Diseño y Gestión de Proyectos de Desarrollo,C006,NO,REVISION_PENDIENTE
+O204,Gestión de Proyectos de Google,C006,NO,REVISION_PENDIENTE
+O205,Diseño de proyectos para promover el bienestar,,NO,REVISION_PENDIENTE
+O206,Administración para obtener resultados,,NO,REVISION_PENDIENTE
+O207,Diseño y Creación de un Emprendimiento Social,,NO,REVISION_PENDIENTE
+O208,How to Create a Program Evaluation for Your Non-Profit,C002,NO,REVISION_PENDIENTE
+O209,Social Impact Strategy: Tools for Entrepreneurs and Innovators,,NO,REVISION_PENDIENTE
+O210,Évaluation & Mesure d'Impact Social,,NO,REVISION_PENDIENTE
+O211,Fundraising and Development Foundations,C004,NO,REVISION_PENDIENTE
+O212,Annual Campaigns: Building a Case for Support,C004,NO,REVISION_PENDIENTE
+O213,Introducción al diseño de Mercadeo con Canva,,NO,REVISION_PENDIENTE
+O214,Storytelling - Relanza tu Marca,,NO,REVISION_PENDIENTE
+O215,Pilares de Marketing Digital,,NO,REVISION_PENDIENTE
+O216,Crea piezas para redes sociales usando Canva,,NO,REVISION_PENDIENTE
+O217,Liderazgo de equipos,,NO,REVISION_PENDIENTE
+O218,Accountability y gestión del desempeño,,NO,REVISION_PENDIENTE
+O219,Comunicación efectiva para el líder actual,C006,NO,REVISION_PENDIENTE
+O220,Liderazgo efectivo: Claves para comenzar a liderar equipos,,NO,REVISION_PENDIENTE
+O221,Gestión de organizaciones efectivas,,NO,REVISION_PENDIENTE
+O222,"Introduction to the Nonprofit Sector, Nonprofit Organizations, Nonprofit Leadership and Governance",,NO,REVISION_PENDIENTE
+O223,Improving Leadership & Governance in Nonprofit Organizations,,NO,REVISION_PENDIENTE
+O224,Fundraising and Development,C004,NO,REVISION_PENDIENTE
+O225,Finanzas y Contabilidad para la Toma de Decisiones,C001,NO,REVISION_PENDIENTE
+O226,Gestión con enfoque en riesgos en proyectos de desarrollo,,NO,REVISION_PENDIENTE
+O227,Curso de Planeación Financiera,C001,NO,REVISION_PENDIENTE
+O228,Curso de Presupuesto y Flujo de Caja,C001,NO,REVISION_PENDIENTE
+O229,Curso de Contabilidad Básica con Siigo,C001,NO,REVISION_PENDIENTE
+O230,Curso de Análisis Financiero con Excel,,NO,REVISION_PENDIENTE
+O231,Curso de Análisis Financiero en Excel,,NO,REVISION_PENDIENTE
+O232,Curso de Evaluación Financiera de Proyectos,C002,NO,REVISION_PENDIENTE
+O233,Curso de Finanzas Corporativas para no Financieros con IA,C001,NO,REVISION_PENDIENTE
+O234,Curso de Finanzas para Emprendedores,C001,NO,REVISION_PENDIENTE
+O235,Curso de Finanzas para Startups,C001,NO,REVISION_PENDIENTE
+O236,Curso de Excel Intermedio,C006,NO,REVISION_PENDIENTE
+O237,Curso de Excel Básico,C006,NO,REVISION_PENDIENTE
+O238,Curso de Excel Avanzado,"C002, C006",NO,REVISION_PENDIENTE
+O239,Curso de Excel para el Análisis de Datos,C006,NO,REVISION_PENDIENTE
+O240,Curso de Excel Avanzado para Análisis de Datos,,NO,REVISION_PENDIENTE
+O241,Curso de ChatGPT con Google Sheets,C006,NO,REVISION_PENDIENTE
+O242,Curso de Forecasting con Excel,,NO,REVISION_PENDIENTE
+O243,Curso de Looker Studio,C002,NO,REVISION_PENDIENTE
+O244,Curso de Excel Avanzado con Macros,C006,NO,REVISION_PENDIENTE
+O245,Análisis de Datos con el Mundial 2026,,NO,REVISION_PENDIENTE
+O246,Curso de No-Code con Appsheet,C006,NO,REVISION_PENDIENTE
+O247,Curso de Fundamentos de Project Management,,NO,REVISION_PENDIENTE
+O248,Curso Práctico de Project Management,C001,NO,REVISION_PENDIENTE
+O249,"Curso de Gestión para Planificar, Definir e Identificar Riesgos de un Proyecto",,NO,REVISION_PENDIENTE
+O250,Curso de Seguimiento y Cierre de Proyectos,C006,NO,REVISION_PENDIENTE
+O251,Curso de Análisis de Datos para la Gestión de Proyectos,C006,NO,REVISION_PENDIENTE
+O252,Curso de Gestión de Proyectos con Jira,C006,NO,REVISION_PENDIENTE
+O253,Curso de Notion,,NO,REVISION_PENDIENTE
+O254,Curso de Trello,"C002, C006",NO,REVISION_PENDIENTE
+O255,Curso de Gestión de Trabajo con Airtable,C006,SI,REFERENCIA_C_CANONICA
+O256,Curso de Gestión de Equipos y Productividad con Notion,C006,NO,REVISION_PENDIENTE
+O257,Curso Profesional de Scrum,,NO,REVISION_PENDIENTE
+O258,Curso de Gestión de Equipos Ágiles,,NO,REVISION_PENDIENTE
+O259,Curso de Scrum Profesional,C006,NO,REVISION_PENDIENTE
+O260,Curso Básico de Digital Project Management,,NO,REVISION_PENDIENTE
+O261,Curso de Project Management con PMBOK,,NO,REVISION_PENDIENTE
+O262,Curso de Agile Delivery Management: Proyectos Enfocados en Resultados,,NO,REVISION_PENDIENTE
+O263,Curso para Crear tu Oficina Virtual con Notion,,NO,REVISION_PENDIENTE
+O264,Curso de Power BI,C002,NO,REVISION_PENDIENTE
+O265,Curso de DAX para Power BI,C002,NO,REVISION_PENDIENTE
+O266,Curso PowerBI Avanzado,C002,NO,REVISION_PENDIENTE
+O267,Curso de Visualización de Datos para BI,C002,NO,REVISION_PENDIENTE
+O268,Curso de Toma de Decisiones Basadas en Datos,,NO,REVISION_PENDIENTE
+O269,Curso de OKRs: Herramienta Clave para Managers,,NO,REVISION_PENDIENTE
+O270,Curso de Métricas Esenciales de Negocio,,NO,REVISION_PENDIENTE
+O271,Curso de Tableau: Visualización de Datos y Storytelling para Negocios,C002,NO,REVISION_PENDIENTE
+O272,Curso de Visualización de Datos y Storytelling con Latinometrics,,NO,REVISION_PENDIENTE
+O273,Curso de Google Analytics,,NO,REVISION_PENDIENTE
+O274,Taller de Informes para Marketing Digital,,NO,REVISION_PENDIENTE
+O275,Curso de Métricas para Medir el Crecimiento de tu Negocio Digital,,NO,REVISION_PENDIENTE
+O276,Curso de Estadística y Probabilidad,,NO,REVISION_PENDIENTE
+O277,Curso de Business Intelligence: Utilidad y Áreas de Oportunidad,,NO,REVISION_PENDIENTE
+O278,Curso de Métricas para Startups en Etapa Temprana,,NO,REVISION_PENDIENTE
+O279,Curso de Análisis Exploratorio de Datos,,NO,REVISION_PENDIENTE
+O280,Curso de Comunicación Efectiva para Equipos de Trabajo,,NO,REVISION_PENDIENTE
+O281,Curso de Comunicación Asertiva,,NO,REVISION_PENDIENTE
+O282,Curso de Oratoria para Hablar en Público,,NO,REVISION_PENDIENTE
+O283,Curso de PowerPoint: Elementos Multimedia,,NO,REVISION_PENDIENTE
+O284,Curso de PowerPoint: Plantillas y Vistas de Presentación,,NO,REVISION_PENDIENTE
+O285,Curso de Keynote,,NO,REVISION_PENDIENTE
+O286,Audiocurso de Comunicación Efectiva,,NO,REVISION_PENDIENTE
+O287,Curso de Comunicación Estratégica para Empresas,,NO,REVISION_PENDIENTE
+O288,Curso de Storytelling,,NO,REVISION_PENDIENTE
+O289,Curso de Oratoria Profesional,,NO,REVISION_PENDIENTE
+O290,Curso de Canva,,NO,REVISION_PENDIENTE
+O291,Curso de Creación de Pitch para Clientes,,NO,REVISION_PENDIENTE
+O292,Curso de Comunicación Digital Profesional,,NO,REVISION_PENDIENTE
+O293,Curso de Liderazgo para Equipos de Trabajo,C006,NO,REVISION_PENDIENTE
+O294,Curso de Gestión del Cambio para Empresas,,NO,REVISION_PENDIENTE
+O295,Curso de Liderazgo Creativo,,NO,REVISION_PENDIENTE
+O296,Curso de Herramientas para Managers,C006,NO,REVISION_PENDIENTE
+O297,Curso para Evaluar el Desempeño de tu Equipo,C002,NO,REVISION_PENDIENTE
+O298,Curso de Mentoring y Coaching para Líderes,C003,NO,REVISION_PENDIENTE
+O299,Curso de Cultura Organizacional,,NO,REVISION_PENDIENTE
+O300,Curso Avanzado de Liderazgo: Adapta tu Estilo de Liderazgo,,NO,REVISION_PENDIENTE
+O301,Audiocurso de Liderazgo para Mujeres,,NO,REVISION_PENDIENTE
+O302,Curso de Resolución de Conflictos,,NO,REVISION_PENDIENTE
+O303,Curso de Técnicas de Negociación,,NO,REVISION_PENDIENTE
+O304,Curso de Técnicas de Influencia y Persuasión,,NO,REVISION_PENDIENTE
+O305,Audiocurso sobre la Neurociencia del Feedback,,NO,REVISION_PENDIENTE
+O306,Audiocurso de Cómo Dar Feedback,,NO,REVISION_PENDIENTE
+O307,Audiocurso de Cómo Recibir Feedback,,NO,REVISION_PENDIENTE
+O308,Audiocurso de Managing Up: Gestión y Comunicación Efectiva con Gerentes,,NO,REVISION_PENDIENTE
+O309,Curso para Líderes en Formación,C006,NO,REVISION_PENDIENTE
+O310,Curso de Formación y Desarrollo para Equipos,,NO,REVISION_PENDIENTE
+O311,Curso de Onboarding y Offboarding,C003,NO,REVISION_PENDIENTE
+O312,Audiocurso de Responsabilidad Social Empresarial,C005,NO,REVISION_PENDIENTE
+O313,Curso de Inteligencia Emocional para Líderes,,NO,REVISION_PENDIENTE
+O314,Gestión financiera,,SI,REFERENCIA_C_CANONICA
+O315,Determinación del precio,,NO,REVISION_PENDIENTE
+O316,Contabilidad simplificada,C001,NO,REVISION_PENDIENTE
+O317,Contabilidad aplicada,C001,NO,REVISION_PENDIENTE
+O318,Cómo planificar tu negocio,,NO,REVISION_PENDIENTE
+O319,Cómo acceder a financiamiento,,NO,REVISION_PENDIENTE
+O320,Formulación de planes de negocios y Acceso a financiamiento,,NO,REVISION_PENDIENTE
+O321,Crowdfunding para emprendedores,,NO,REVISION_PENDIENTE
+O322,Procesos internos y entorno de la empresa,,NO,REVISION_PENDIENTE
+O323,Marketing,,NO,REVISION_PENDIENTE
+O324,Integración de TIC’s en la gestión empresarial,,NO,REVISION_PENDIENTE
+O325,Gestión legal,,NO,REVISION_PENDIENTE
+O326,Gestión de personas,,NO,REVISION_PENDIENTE
+O327,Gestión de clientes,,NO,REVISION_PENDIENTE
+O328,Metodologías ágiles Scrum para mipes,,NO,REVISION_PENDIENTE
+O329,El Marketing digital y las redes sociales,,NO,REVISION_PENDIENTE
+O330,Gestión del tiempo para mujeres emprendedoras,C006,NO,REVISION_PENDIENTE
+O331,Lenguaje inclusivo: Comunicación en la MIPES,,NO,REVISION_PENDIENTE
+O332,Sustentabilidad,,NO,REVISION_PENDIENTE
+O333,Evaluación del Riesgo Psicosocial Laboral,C002,NO,REVISION_PENDIENTE
+O334,Comercio Digital Nacional,,NO,REVISION_PENDIENTE
+O335,"Finanzas personales I: Ingresos, gastos y ahorro",C001,NO,REVISION_PENDIENTE
+O336,CANVAS Diseño de Modelos de Negocio,,NO,REVISION_PENDIENTE
+O337,Técnicas de Servicio orientadas al Cliente,,NO,REVISION_PENDIENTE
+O338,Legislación laboral Parte 4: Remuneraciones.,,NO,REVISION_PENDIENTE
+O339,Finanzas y Seguridad de la Información,"C001, C006",NO,REVISION_PENDIENTE
+O340,Gestión y Colaboración,C002,NO,REVISION_PENDIENTE
+O341,Marketing Digital,,NO,REVISION_PENDIENTE
+O342,Negocio Inteligente,,NO,REVISION_PENDIENTE
+O343,"Definición de precios: análisis de costos, estrategia y rentabilidad",,NO,REVISION_PENDIENTE
+O344,Herramientas digitales para productividad y operación: automatización y mejora de procesos,C006,NO,REVISION_PENDIENTE
+O345,Gestión de personal en la microempresa,,NO,REVISION_PENDIENTE
+O346,Excel · de básico a intermedio,,NO,REVISION_PENDIENTE
+O347,Excel · de intermedio a avanzado,,NO,REVISION_PENDIENTE
+O348,Fundamentos de Power BI,C002,NO,REVISION_PENDIENTE
+O349,Power BI intermedio: análisis y modelado de datos,C002,NO,REVISION_PENDIENTE
+O350,Gestión Efectiva de proyectos y equipos,,NO,REVISION_PENDIENTE
+O351,Liderazgo,,NO,REVISION_PENDIENTE
+O352,Fundamentos de Marketing Automation,C004,SI,REFERENCIA_C_CANONICA
+O353,Comunicación estratégica y trabajo en equipo (Strategic Communication & Teamwork),,NO,REVISION_PENDIENTE
+O354,Copilot: domina la IA en Microsoft 365,C006,NO,REVISION_PENDIENTE
+O355,Pon tus finanzas en orden y da el primer paso hoy,C001,NO,REVISION_PENDIENTE
+O356,Presupuesto organizacional para una adecuada gestión financiera,C001,NO,REVISION_PENDIENTE
+O357,Implementación de un sistema de control de gestión,"C002, C006",SI,REFERENCIA_C_CANONICA
+O358,Introducción a la contabilidad,"C001, C006",NO,REVISION_PENDIENTE
+O359,Técnicas de administración de flujo de caja y presupuestación para una adecuada gestión financiera,C001,SI,REFERENCIA_C_CANONICA
+O360,Herramientas de contabilidad financiera básica,C001,NO,REVISION_PENDIENTE
+O361,Estados financieros: herramientas para el análisis y la interpretación,,NO,REVISION_PENDIENTE
+O362,Costos: herramientas fundamentales para la contabilidad,C001,NO,REVISION_PENDIENTE
+O363,Herramientas de Excel básico,,NO,REVISION_PENDIENTE
+O364,Herramientas de Excel intermedio,,NO,REVISION_PENDIENTE
+O365,Herramientas de Excel avanzado,,NO,REVISION_PENDIENTE
+O366,Power BI intermedio para el análisis de datos,C002,NO,REVISION_PENDIENTE
+O367,Gestión de proyectos: herramientas clave,C006,SI,REFERENCIA_C_CANONICA
+O368,Herramientas para la gestión de proyectos aplicando metodologías Ágiles y Lean,C006,NO,REVISION_PENDIENTE
+O369,Gestión del tiempo y efectividad personal,,NO,REVISION_PENDIENTE
+O370,Finanzas personales: arma tu presupuesto,C001,NO,REVISION_PENDIENTE
+O371,"Gestión presupuestaria, contabilidad gubernamental y NICSP en el sector público chileno",C001,NO,REVISION_PENDIENTE
+O372,"Excel para la inteligencia de negocio: Power Query, Pivot, DAX y Macros",,NO,REVISION_PENDIENTE
+O373,Estrategias de Monitoreo y Evaluación de Proyectos Sociales,"C002, C006",SI,REFERENCIA_C_CANONICA
+O374,Postulación a Fondos Concursables para Organizaciones sin fines de lucro (OSFL),C003,SI,REFERENCIA_C_CANONICA
+O375,Administración y contabilidad para OSFL,"C001, C006",SI,REFERENCIA_C_CANONICA
+O376,Trámites Contables para OSFL,"C001, C006",SI,REFERENCIA_C_CANONICA
+O377,Estrategias para diversificar el financiamiento de tu OSFL,"C003, C004",SI,REFERENCIA_C_CANONICA
+O378,Leyes de donaciones para Organizaciones sin fines de lucro,C004,NO,REVISION_PENDIENTE
+O379,Estrategias de Gestión de Organizaciones Sin Fines de Lucro,"C002, C004, C005",SI,REFERENCIA_C_CANONICA
+O380,Creación de nuevas Fundaciones o Corporaciones,,NO,REVISION_PENDIENTE
+O381,Manual del Dirigente para Organizaciones Comunitarias,"C002, C006",SI,REFERENCIA_C_CANONICA
+O382,Manual para construir y gestionar organizaciones sociales,C005,SI,REFERENCIA_C_CANONICA
+O383,Gobiernos Corporativos en Fundaciones y Corporaciones,C002,NO,REVISION_PENDIENTE
+O384,Fondos concursables: 5 recomendaciones de cómo realizar una postulación adecuada,C003,NO,REVISION_PENDIENTE
+O385,Curso Gestor de Proyectos de Fondos Concursables,C003,SI,REFERENCIA_C_CANONICA
+O386,Fondos Concursables · Un mecanismo para promover la solución participativa de problemas sociales,C003,SI,REFERENCIA_C_CANONICA
+O387,Fundraising para fundaciones: Estrategias para avanzar en la sustentabilidad económica de mi organización,C004,SI,REFERENCIA_C_CANONICA
+O388,Acompañamiento Fondo Comunidad Activa 2027,C003,SI,REFERENCIA_C_CANONICA
+O389,Webinar grabado: fondos concursables para ONG,C003,SI,REFERENCIA_C_CANONICA
+O390,Checklist Fondo Comunidad Activa 2027: qué preparar antes,C003,SI,REFERENCIA_C_CANONICA
+O391,Guía N.º 4. Plan de Mejoras · Planilla de Seguimiento Mensual,"C002, C006",SI,REFERENCIA_C_CANONICA
+O392,Modelo de Pilotaje 2022 · Matriz de indicadores,"C002, C006",SI,REFERENCIA_C_CANONICA

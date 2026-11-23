@@ -7,8 +7,9 @@
 | GH-01.2 | 5/10 | **Completada** | CSS/JS/JSON/PNG versionados, compilación reproducible y 11 pruebas |
 | GH-01.3 | 4/10 | **Completada** | QA en GitHub Actions, matriz Python y recuperación aislada |
 | GH-01.4 | 4/10 | **Completada**; publicación aprobada después | Preview, gates y release registrado |
-| UX-11.1 | 4/10 (estimación) | **Siguiente** | Matriz auditable de cruces Oferta-Demanda y contraevidencia |
-| UX-11.2+ | Por definir | Pendiente | Análisis y visualización progresivos del cruce |
+| UX-11.1 | 4/10 | **Completada técnicamente, QA en PR** | 9.408 pares posibles; 164 coreferencias, 392 ofertas cribadas, contraevidencia |
+| UX-11.2 | 4/10 (reestimada) | **Siguiente** | Validar candidatos y sustitutos antes de afirmar oportunidades |
+| UX-11.3–11.5 | Hasta 5/10 por microfase | Pendiente | Matriz por concepto, interfaz y QA final |
 
 ## Cierre GH-01.2
 
@@ -42,13 +43,23 @@ La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada 
 - [Pull Request con registro de versión, fusionado](https://github.com/seba-godoy/sdc-cursos-asincronicos/pull/1) y QA post-merge aprobado.
 - Se mantiene `git.deploymentEnabled:false`. La publicación no conectó Git-Vercel ni cambió datasets.
 
-## Próxima UX-11.1 · Dificultad estimada 4/10
+## Cierre analítico UX-11.1 · 23/11/2026
 
-**Qué hará:** cruzar las 392 fichas de Oferta y las 24 de Demanda mediante temas/segmentos comparables, revisar cómo utilizar las 709 búsquedas como indicador independiente, clasificar evidencia explícita, inferida y no comparable, y elaborar una matriz de trazabilidad/contraevidencia antes de tocar el HTML.
+- Baseline original v1.0.12 intacto. Se cruzaron 392 ofertas × 24 señales = **9.408** combinaciones auditables (par O/D, no demanda medida).
+- Se preservaron 24 referencias a D y 38 referencias a O de las seis fichas C (34 ofertas distintas). Estas referencias producen **164 coreferencias temáticas**, **no** 164 oportunidades ni equivalencias.
+- Las **9.244** combinaciones restantes carecen de enlace temático en C y quedan sin evaluar; su falta de enlace **no** demuestra ausencia de competidores.
+- Cribado de títulos y tareas: 184 ofertas marcadas como pistas léxicas (154 sin enlace C). Requieren revisión manual de falsos positivos, modalidad y público.
+- Todos los 164 pares conservan fuente, segmento, modalidad, tipo de señal, corroboración, contraevidencia y alertas de dependencia/casos históricos.
+- Estados D: 15 DIRECTO, 3 INDICE_OFICIAL, 6 PARCIAL; tipos: 11 FORMACION, 2 POSTULACION, 6 OPERACION, 5 CONTRATACION_INSTITUCIONAL.
+- [Informe, metodología y limitaciones](UX-11.1_REPORT.md) · [CSV de pares curados](../data/analysis/ux11_1_curados_164.csv) · [resumen](../data/analysis/ux11_1_resumen.json) · [generador reproducible](../scripts/ux11_1_crosswalk.py) · [pruebas](../tests/test_ux11_1_crosswalk.py).
+- Sólo análisis y archivos separados de `data/dataset.json`. Ningún puntaje ni ranking fue recalculado; el HTML y Vercel se mantienen en v1.0.12 hasta aprobación expresa.
+- Estado de cierre condicionado al resultado del PR con checks obligatorios Python 3.11/3.12.
 
-**Por qué importa:** terminamos la infraestructura básica; volvemos al objetivo principal: identificar cursos con oportunidades defendibles y evitar interpretar búsquedas o visualizaciones como demanda pagadora. Los resultados podrán implementarse con QA y preview previo a cualquier publicación.
+## Próxima UX-11.2 · Dificultad reestimada 4/10
 
-**Estado:** la v1.0.12 ya fue revisada y publicada. Mantener microtareas ≤5/10; nuevas versiones exigen PR, QA, preview y aprobación expresa.
+**Qué hará:** revisar las candidatas encontradas por palabras clave, sobre todo las 154 sin anclaje C, discriminar sustitutos gratuitos y cursos comerciales, revisar público, modalidad y resultado de aprendizaje; publicar una matriz de comparabilidad validada con contraevidencia por concepto.
+
+**Por qué importa:** la coreferencia documental por sí sola no demuestra sustitución ni brechas competitivas; antes de decidir producir uno de seis cursos hace falta validar qué alternativas resuelven realmente la misma tarea. Si la carga de validación supera 5/10, subdividir UX-11.2 en grupos antes de ejecutarla.
 
 ## Condiciones de despliegue
 
