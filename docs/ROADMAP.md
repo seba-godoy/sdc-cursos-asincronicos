@@ -9,7 +9,7 @@
 | GH-01.4 | 4/10 | **Completada**; publicación aprobada después | Preview, gates y release registrado |
 | UX-11.1 | 4/10 | **Completada 23-11-2026, QA aprobada** | 9.408 pares posibles; 164 coreferencias, 392 ofertas cribadas, contraevidencia |
 | UX-11.2 | 3+5+4+4/10 · microfases | **Completada y auditada 23-11-2026** | 188 O revisadas, 14 fuentes públicas contrastadas, matriz y contraevidencia |
-| UX-11.3 | 3+4+4+4/10 en microfases | **Resultados en PR, pendiente QA** | Seis fichas de evidencia, sustitutos, diferenciación hipotética y falsadores |
+| UX-11.3 | 3+4+4+4/10 en microfases | **Completada y auditada 23-11-2026** | Seis fichas O/D, falsadores no ejecutados y QA Python 3.11/3.12 |
 | UX-11.4 | 5/10 estimada | **Siguiente** | Rediseñar sección Conclusiones Cruzadas sin confundir hipótesis con hechos |
 | UX-11.5 | 4/10 estimada | Pendiente | QA transversal, preview y revisión antes de publicar |
 
@@ -81,7 +81,7 @@ La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada 
 - Conserva los puntajes de referencia C003 **3,55/5** y C002 **3,45/5** como *prioridades condicionadas*, no oportunidades demostradas. Otros cuatro conceptos con estado de reserva, exploración o postergación según documentación existente.
 - Vincula las 24 señales D y las ofertas O seleccionadas, sin sumar unidades incompatibles, sin nueva prueba comercial, sin repetir fundaciones de estudios dependientes ni declarar vacíos de mercado.
 - Diseña seis **pruebas falsadoras NO EJECUTADAS**; en C003 se conserva el criterio previo **6 de 8 usuarios** como posible piloto futuro. La evidencia propia de O373/374 y los recursos gratuitos son condiciones clave antes de producir cursos.
-- La integración depende de PR y QA obligatorios Python 3.11/3.12. Ninguna edición a fuentes canónicas, rankings o Vercel en esta fase.
+- **Cierre verificado:** [PR #7 fusionado](https://github.com/seba-godoy/sdc-cursos-asincronicos/pull/7), commit `f6ecea01b1944acfadbb8301fffa1af8d61ef487`. [GitHub Actions #20](https://github.com/seba-godoy/sdc-cursos-asincronicos/actions/runs/45223748041) **SUCCESS**, 35 tests en Python 3.11 y 35 en Python 3.12. [ZIP de seis fichas y falsadores en Drive](https://drive.google.com/file/d/1gn4oa1FhqGb6DpekAA00SFhc9AYAzG8B/view), auditado con ZIP íntegro, 6 fichas, 6 pruebas no ejecutadas, 24 D y 38 referencias O. [Acta de cierre en Notion](https://app.notion.com/p/421091be03278164ae6ee14c259b5db0). Ningún cambio a datos, ranking, HTML ni Vercel.
 
 ## Próxima UX-11.4 · Dificultad provisional 5/10
 
