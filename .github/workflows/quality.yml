@@ -57,5 +57,18 @@ jobs:
             dist/preview-candidate/candidate-manifest.json
           retention-days: 14
           if-no-files-found: error
+      - name: Generar matriz de sustitutos UX-11.2 sin alterar datos
+        run: python -m scripts.ux11_2_review
+      - name: Respaldar matriz UX-11.2 para Drive
+        if: matrix.python-version == '3.12' && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v6
+        with:
+          name: sdc-ux11-2-matriz
+          path: |
+            dist/ux11_2/catalogo_188.csv
+            dist/ux11_2/casos_14.csv
+            dist/ux11_2/resumen.json
+          retention-days: 14
+          if-no-files-found: error
       - name: Confirmar que no se alteraron archivos rastreados
         run: git diff --exit-code && git diff --cached --exit-code
