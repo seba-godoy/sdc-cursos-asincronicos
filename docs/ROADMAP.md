@@ -7,7 +7,7 @@
 | GH-01.2 | 5/10 | **Completada** | CSS/JS/JSON/PNG versionados, compilación reproducible y 11 pruebas |
 | GH-01.3 | 4/10 | **Completada** | QA en GitHub Actions, matriz Python y recuperación aislada |
 | GH-01.4 | 4/10 | **Completada**; publicación aprobada después | Preview, gates y release registrado |
-| UX-11.1 | 4/10 | **Completada técnicamente, QA en PR** | 9.408 pares posibles; 164 coreferencias, 392 ofertas cribadas, contraevidencia |
+| UX-11.1 | 4/10 | **Completada 23-11-2026, QA aprobada** | 9.408 pares posibles; 164 coreferencias, 392 ofertas cribadas, contraevidencia |
 | UX-11.2 | 4/10 (reestimada) | **Siguiente** | Validar candidatos y sustitutos antes de afirmar oportunidades |
 | UX-11.3–11.5 | Hasta 5/10 por microfase | Pendiente | Matriz por concepto, interfaz y QA final |
 
@@ -53,7 +53,7 @@ La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada 
 - Estados D: 15 DIRECTO, 3 INDICE_OFICIAL, 6 PARCIAL; tipos: 11 FORMACION, 2 POSTULACION, 6 OPERACION, 5 CONTRATACION_INSTITUCIONAL.
 - [Informe, metodología y limitaciones](UX-11.1_REPORT.md) · [CSV de pares curados](../data/analysis/ux11_1_curados_164.csv) · [resumen](../data/analysis/ux11_1_resumen.json) · [generador reproducible](../scripts/ux11_1_crosswalk.py) · [pruebas](../tests/test_ux11_1_crosswalk.py).
 - Sólo análisis y archivos separados de `data/dataset.json`. Ningún puntaje ni ranking fue recalculado; el HTML y Vercel se mantienen en v1.0.12 hasta aprobación expresa.
-- Estado de cierre condicionado al resultado del PR con checks obligatorios Python 3.11/3.12.
+- [PR #3](https://github.com/seba-godoy/sdc-cursos-asincronicos/pull/3) fusionado; [QA post-merge](https://github.com/seba-godoy/sdc-cursos-asincronicos/actions/runs/45216581697) **SUCCESS** en Python 3.11/3.12. Fase cerrada, sin cambios en Vercel.
 
 ## Próxima UX-11.2 · Dificultad reestimada 4/10
 
