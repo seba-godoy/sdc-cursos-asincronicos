@@ -10,7 +10,7 @@
 | UX-11.1 | 4/10 | **Completada 23-11-2026, QA aprobada** | 9.408 pares posibles; 164 coreferencias, 392 ofertas cribadas, contraevidencia |
 | UX-11.2 | 3+5+4+4/10 · microfases | **Completada y auditada 23-11-2026** | 188 O revisadas, 14 fuentes públicas contrastadas, matriz y contraevidencia |
 | UX-11.3 | 3+4+4+4/10 en microfases | **Completada y auditada 23-11-2026** | Seis fichas O/D, falsadores no ejecutados y QA Python 3.11/3.12 |
-| UX-11.4 | 4+5+4+4/10 en microfases | **Implementada en PR; QA y candidato pendientes** | Nueva interfaz de seis fichas, compilación aislada sin cambiar v1.0.12 |
+| UX-11.4 | 4+5+4+4/10 en microfases | **Completada y auditada 23-11-2026** | Seis fichas interactivas, HTML candidato y QA Chromium/CI sin tocar producción |
 | UX-11.5 | 4/10 estimada | **Siguiente** | QA visual transversal, preview aislado y aprobación antes de producción |
 
 ## Cierre GH-01.2
@@ -96,7 +96,7 @@ La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada 
 - Pestaña Conclusiones Cruzadas: 392 O, 24 D, 188 O cribadas y 6 C; destaca C003 y C002 como **hipótesis condicionadas con score histórico**, sin recalcular; selector accesible de seis fichas; pasos necesidad, evidencia, alternativas, hipótesis, prueba falsadora y decisión.
 - Los vínculos originales O/D/C abren sus fichas; no se declara comercialización validada, sustitución completa ni experimentos ejecutados.
 - El empaquetador **verifica v1.0.12 byte a byte antes de construir el candidato** y conserva sus tres JSON canónicos y logos. Genera HTML autónomo en `dist/ux11_4/index.html` y manifiesto `production_approved=false`.
-- Integración condicionada a PR, QA Python 3.11/3.12, auditoría de diff y copia persistente del candidato.
+- **Cierre verificado:** [PR #9](https://github.com/seba-godoy/sdc-cursos-asincronicos/pull/9) fusionado a `main` commit `961b87b15ca3e5737aa256bc8645da2c01c4223f`; [GitHub Actions post-merge](https://github.com/seba-godoy/sdc-cursos-asincronicos/actions/runs/45244979232) **SUCCESS** Python 3.11/3.12. Prueba funcional Chromium en 1440×960, 820×1024 y 390×844, sin errores JS o scroll horizontal. Se corrigió bug inicial array/objeto y se agregó regresión. [ZIP final HTML + manifiesto en Drive](https://drive.google.com/file/d/1TfDwGKV5ArkV3WO5_zPgJz-4cDSZl7g_/view): **1.915.750 bytes**, SHA-256 `612dbebfb5497ffe79b86bcf2c3cabbebeef723a2003aaf13834afddfe4f4b37`; `production_approved=false`. [Acta Notion](https://app.notion.com/p/421091be03278197a9b1f8a006cf5ae2), [documento Drive](https://docs.google.com/document/d/1Sij7ucw5Y4YEmonYgQKVKqwyzVcaIB945wbNay9T9BU/edit).
 - **La producción de Vercel queda intacta hasta aprobación expresa.** UX-11.5 realizará revisión visual/funcional y preview de la nueva candidata.
 
 ## Próxima UX-11.5 · Dificultad inicial 4/10
