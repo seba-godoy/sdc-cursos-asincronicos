@@ -2,11 +2,11 @@
 
 | Fase | Dificultad | Estado | Entregable |
 | --- | ---: | --- | --- |
-| UX-10.3 | 4/10 | Cerrada técnicamente; revisión humana pendiente | HTML candidato v1.0.12 |
+| UX-10.3 | 4/10 | **Aprobada y publicada 23-11-2026** | HTML v1.0.12 en producción |
 | GH-01.1 | 3/10 | Completada | Repositorio público, políticas y estructura |
 | GH-01.2 | 5/10 | **Completada** | CSS/JS/JSON/PNG versionados, compilación reproducible y 11 pruebas |
 | GH-01.3 | 4/10 | **Completada** | QA en GitHub Actions, matriz Python y recuperación aislada |
-| GH-01.4 | 4/10 | **Completada técnicamente**, QA visual pendiente | Preview v1.0.12 y gates de producción manual |
+| GH-01.4 | 4/10 | **Completada**; publicación aprobada después | Preview, gates y release registrado |
 | UX-11.1 | 4/10 (estimación) | **Siguiente** | Matriz auditable de cruces Oferta-Demanda y contraevidencia |
 | UX-11.2+ | Por definir | Pendiente | Análisis y visualización progresivos del cruce |
 
@@ -32,17 +32,27 @@ Se descompuso UX-10.3 v1.0.12 sin modificar sus 1.131 registros. La construcció
 - [Runbook de publicación](RELEASE_RUNBOOK.md) y [acta GH-01.4](GH-01.4_AUDIT.md).
 - <b>La fase no autoriza ni ejecuta despliegue a producción</b>. La revisión visual del preview tampoco está cerrada.
 
+## Publicación autorizada · 23/11/2026
+
+La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada en [cursos-asincronicos-sdc.vercel.app](https://cursos-asincronicos-sdc.vercel.app). Se promocionó el deployment de producción `dpl_CK2Nq9ibBFQbE5NUiGmFHmCjcBeV`, confirmado por el alias del dominio. La producción anterior `dpl_3chwuB14CquyTuj8scX7p99MRF2f` sigue READY como referencia de recuperación.
+
+- [Acta técnica de publicación](releases/2026-11-23-v1.0.12.md).
+- [Acta Notion y aprobación](https://app.notion.com/p/421091be032781109517f3699049d1d5).
+- [Acta documental en Drive](https://docs.google.com/document/d/1H2M1WUz4dUX6genscW0U3Lc4AtvCTJumNsw2huyrDaM/edit).
+- [Pull Request con registro de versión, fusionado](https://github.com/seba-godoy/sdc-cursos-asincronicos/pull/1) y QA post-merge aprobado.
+- Se mantiene `git.deploymentEnabled:false`. La publicación no conectó Git-Vercel ni cambió datasets.
+
 ## Próxima UX-11.1 · Dificultad estimada 4/10
 
 **Qué hará:** cruzar las 392 fichas de Oferta y las 24 de Demanda mediante temas/segmentos comparables, revisar cómo utilizar las 709 búsquedas como indicador independiente, clasificar evidencia explícita, inferida y no comparable, y elaborar una matriz de trazabilidad/contraevidencia antes de tocar el HTML.
 
 **Por qué importa:** terminamos la infraestructura básica; volvemos al objetivo principal: identificar cursos con oportunidades defendibles y evitar interpretar búsquedas o visualizaciones como demanda pagadora. Los resultados podrán implementarse con QA y preview previo a cualquier publicación.
 
-**Dependencia:** el preview actual sigue en revisión visual. Mantener microtareas ≤5/10.
+**Estado:** la v1.0.12 ya fue revisada y publicada. Mantener microtareas ≤5/10; nuevas versiones exigen PR, QA, preview y aprobación expresa.
 
 ## Condiciones de despliegue
 
 - GitHub público: control de versiones del material autorizado.
 - Drive y Notion: respaldo documental y actas.
-- Vercel: no conectado a Git; preview v1.0.12 creado en GH-01.4, sin cambios de dominio público.
+- Vercel: no conectado a Git; producción v1.0.12 aprobada y publicada el 23-11-2026 (deployment `dpl_CK2Nq9ibBFQbE5NUiGmFHmCjcBeV`).
 - Ninguna subida a producción sin aprobación explícita del usuario.
