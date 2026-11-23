@@ -1,0 +1,216 @@
+[
+  {
+    "id": "C001",
+    "nombre": "Caja por convenio o proyecto",
+    "demanda_ids": [
+      "D001",
+      "D017",
+      "D023"
+    ],
+    "oferta_ids": [
+      "O314",
+      "O022",
+      "O359",
+      "O375",
+      "O376"
+    ],
+    "n_demanda": 3,
+    "n_oferta": 5,
+    "n_pares_cotematicos": 15,
+    "señales_tipo": {
+      "CONTRATACION_INSTITUCIONAL": 1,
+      "FORMACION": 1,
+      "OPERACION": 1
+    },
+    "corroboracion": {
+      "PARCIAL": 3
+    },
+    "respaldo_declarado": "Planilla de saldo utilizable y fondos restringidos con desembolso diferido.",
+    "contraevidencia": "Integra documenta descalces mensuales y Fundación Chile reporta variaciones asociadas a proyectos. Son casos institucionales. O314 ya enseña caja general.",
+    "sustituto": "O314 · Fundamentos de gestión financiera, gratuito",
+    "confianza_previa": "Baja · uso específico y compra sin medir",
+    "puntaje_previo_no_recalculado": "2,95–3,75 · ref. 3,35",
+    "falsador_o_pendiente": "Uso repetido de caja semanal por fondo restringido en fundaciones del segmento y acciones ante desembolsos diferidos."
+  },
+  {
+    "id": "C002",
+    "nombre": "Indicadores y tablero operativo mensual",
+    "demanda_ids": [
+      "D002",
+      "D003",
+      "D004",
+      "D018",
+      "D019",
+      "D022"
+    ],
+    "oferta_ids": [
+      "O005",
+      "O051",
+      "O357",
+      "O373",
+      "O379",
+      "O391",
+      "O392"
+    ],
+    "n_demanda": 6,
+    "n_oferta": 7,
+    "n_pares_cotematicos": 42,
+    "señales_tipo": {
+      "CONTRATACION_INSTITUCIONAL": 2,
+      "FORMACION": 3,
+      "OPERACION": 1
+    },
+    "corroboracion": {
+      "DIRECTO": 3,
+      "INDICE_OFICIAL": 2,
+      "PARCIAL": 1
+    },
+    "respaldo_declarado": "Cerrar un mes en una planilla editable con datos de un programa social, tres fichas, denominadores, brechas y una acción con responsable y plazo.",
+    "contraevidencia": "O005 ya enseña tablero y O373 cubre monitoreo asincrónico. D022 es un caso de uso de plataforma y bitácora mensual. BIPS ofrece formación asincrónica para formuladores públicos.",
+    "sustituto": "O005 · microtaller gratuito. O391/O392 · guías públicas de seguimiento",
+    "confianza_previa": "Media · participación temática recurrente y sustituto cercano",
+    "puntaje_previo_no_recalculado": "3,05–3,85 · ref. 3,45",
+    "falsador_o_pendiente": "Pasar a primero si C003 requiere revisión experta para los controles clave, si ya existe una cápsula equivalente de fondos o si la nota comercial de C002 supera en 1 punto a C003. Verificar el cierre mensual de O373."
+  },
+  {
+    "id": "C003",
+    "nombre": "Revisión de una propuesta antes de postular a fondos",
+    "demanda_ids": [
+      "D005",
+      "D006",
+      "D007",
+      "D008",
+      "D020"
+    ],
+    "oferta_ids": [
+      "O007",
+      "O028",
+      "O006",
+      "O374",
+      "O017",
+      "O019",
+      "O385",
+      "O386",
+      "O388",
+      "O389",
+      "O390"
+    ],
+    "n_demanda": 5,
+    "n_oferta": 11,
+    "n_pares_cotematicos": 55,
+    "señales_tipo": {
+      "CONTRATACION_INSTITUCIONAL": 1,
+      "FORMACION": 2,
+      "POSTULACION": 2
+    },
+    "corroboracion": {
+      "DIRECTO": 3,
+      "PARCIAL": 2
+    },
+    "respaldo_declarado": "Aplicar a un borrador propio una pauta con bases fechadas, ejemplo completo corregido y un listado de correcciones y puntos que requieren consulta.",
+    "contraevidencia": "O028 cubre errores, autocorrección y cuándo buscar apoyo. O374/O388 incluyen revisión humana. El FFOIP aplica controles automáticos para ciertos topes presupuestarios.",
+    "sustituto": "O028 · autodiagnóstico. O389/O390 · videos y checklist locales. O388 · revisión escrita con acompañamiento",
+    "confianza_previa": "Media · uso y formación temática observados; diferenciación condicional",
+    "puntaje_previo_no_recalculado": "3,15–3,95 · ref. 3,55",
+    "falsador_o_pendiente": "Probar en un caso nuevo si el usuario corrige 3 controles objetivos y deriva 1 duda sin tutor. Mínimo propuesto: 6 de 8 usuarios. Revisar caso, rúbrica y pauta de O374."
+  },
+  {
+    "id": "C004",
+    "nombre": "Segmentación y seguimiento de donantes",
+    "demanda_ids": [
+      "D009",
+      "D010",
+      "D011",
+      "D024"
+    ],
+    "oferta_ids": [
+      "O352",
+      "O003",
+      "O025",
+      "O057",
+      "O377",
+      "O387"
+    ],
+    "n_demanda": 4,
+    "n_oferta": 6,
+    "n_pares_cotematicos": 24,
+    "señales_tipo": {
+      "FORMACION": 2,
+      "OPERACION": 2
+    },
+    "corroboracion": {
+      "DIRECTO": 4
+    },
+    "respaldo_declarado": "Planilla que conecta segmentos, siguiente contacto y responsable sin exigir un CRM pagado.",
+    "contraevidencia": "O352 enseña segmentación. CEDIS cubre fundraising amplio. América Solidaria y Aldeas documentan CRM, sin verificación de una rutina equivalente en equipos pequeños.",
+    "sustituto": "O352 · curso gratuito de segmentación y campañas",
+    "confianza_previa": "Baja · formación amplia y un caso de uso de herramienta",
+    "puntaje_previo_no_recalculado": "2,90–3,70 · ref. 3,30",
+    "falsador_o_pendiente": "Uso reiterado en equipos pequeños de segmentación, responsable y siguiente contacto sin depender de un CRM dedicado."
+  },
+  {
+    "id": "C005",
+    "nombre": "Inducción y seguimiento de voluntariado",
+    "demanda_ids": [
+      "D012",
+      "D013"
+    ],
+    "oferta_ids": [
+      "O004",
+      "O379",
+      "O381",
+      "O382"
+    ],
+    "n_demanda": 2,
+    "n_oferta": 4,
+    "n_pares_cotematicos": 8,
+    "señales_tipo": {
+      "FORMACION": 1,
+      "OPERACION": 1
+    },
+    "corroboracion": {
+      "DIRECTO": 2
+    },
+    "respaldo_declarado": "Kit operativo de roles, inducción y seguimiento aplicado a un caso chileno.",
+    "contraevidencia": "O379 ya incluye gestión y fidelización. D012 trata de voluntarios y un proyecto; D013 observa personal universitario.",
+    "sustituto": "O004 · taller práctico en vivo para gestión de voluntariado",
+    "confianza_previa": "Baja · evidencia de coordinación acotada",
+    "puntaje_previo_no_recalculado": "2,55–3,35 · ref. 2,95",
+    "falsador_o_pendiente": "Identificar formación usada o comprada por coordinadores de fundaciones y evidencia repetida de fallas de inducción."
+  },
+  {
+    "id": "C006",
+    "nombre": "Registro colaborativo de tareas y evidencias",
+    "demanda_ids": [
+      "D014",
+      "D015",
+      "D016",
+      "D021"
+    ],
+    "oferta_ids": [
+      "O255",
+      "O367",
+      "O373",
+      "O376",
+      "O381"
+    ],
+    "n_demanda": 4,
+    "n_oferta": 5,
+    "n_pares_cotematicos": 20,
+    "señales_tipo": {
+      "CONTRATACION_INSTITUCIONAL": 1,
+      "FORMACION": 2,
+      "OPERACION": 1
+    },
+    "corroboracion": {
+      "DIRECTO": 3,
+      "INDICE_OFICIAL": 1
+    },
+    "respaldo_declarado": "Práctica de una revisión semanal de un convenio con respaldos y permisos.",
+    "contraevidencia": "Una plantilla gratuita ya cubre el registro básico. D021 incluye asesoría y no demuestra uso del flujo propuesto.",
+    "sustituto": "Plantilla abierta Smartsheet y pauta propia de Gantt y presupuesto O381",
+    "confianza_previa": "Baja · rutina y comprador del producto sin verificar",
+    "puntaje_previo_no_recalculado": "2,30–3,10 · ref. 2,70",
+    "falsador_o_pendiente": "Encontrar uso repetido de registros con evidencias en equipos financiados o una brecha que las plantillas no cubran."
+  }
+]
