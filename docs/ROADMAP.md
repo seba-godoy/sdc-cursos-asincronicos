@@ -8,8 +8,9 @@
 | GH-01.3 | 4/10 | **Completada** | QA en GitHub Actions, matriz Python y recuperación aislada |
 | GH-01.4 | 4/10 | **Completada**; publicación aprobada después | Preview, gates y release registrado |
 | UX-11.1 | 4/10 | **Completada 23-11-2026, QA aprobada** | 9.408 pares posibles; 164 coreferencias, 392 ofertas cribadas, contraevidencia |
-| UX-11.2 | 4/10 (reestimada) | **Siguiente** | Validar candidatos y sustitutos antes de afirmar oportunidades |
-| UX-11.3–11.5 | Hasta 5/10 por microfase | Pendiente | Matriz por concepto, interfaz y QA final |
+| UX-11.2 | 3+5+4+4/10, subdividida | **Resultado analítico en PR; QA pendiente** | 188 O cribadas, 14 fichas web, clasificación de sustitutos y contraevidencia |
+| UX-11.3 | 5/10 (estimada) | **Siguiente** | Comparativas por C001–C006 y pruebas falsadoras |
+| UX-11.4–11.5 | ≤5/10 cada una | Pendiente | Interfaz Conclusiones Cruzadas, QA y preview |
 
 ## Cierre GH-01.2
 
@@ -60,6 +61,23 @@ La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada 
 **Qué hará:** revisar las candidatas encontradas por palabras clave, sobre todo las 154 sin anclaje C, discriminar sustitutos gratuitos y cursos comerciales, revisar público, modalidad y resultado de aprendizaje; publicar una matriz de comparabilidad validada con contraevidencia por concepto.
 
 **Por qué importa:** la coreferencia documental por sí sola no demuestra sustitución ni brechas competitivas; antes de decidir producir uno de seis cursos hace falta validar qué alternativas resuelven realmente la misma tarea. Si la carga de validación supera 5/10, subdividir UX-11.2 en grupos antes de ejecutarla.
+
+## UX-11.2 · Evaluación documental de sustitutos · 23/11/2026
+
+- Se subdividió en UX-11.2a (3/10, auditoría), UX-11.2b (5/10, contraste de fichas), UX-11.2c (4/10, clasificaciones reproducibles) y UX-11.2d (4/10, QA y persistencia).
+- Revisión de 154 candidatas léxicas adicionales y las 34 O históricas de C, **188 ofertas únicas** de un universo de 392. **204 no fueron evaluadas en este filtro**.
+- Clasificación preliminar del contenido de sus fichas: **77 sustitutos parciales potenciales, 46 adyacentes y 65 desajustados**. No corresponden a competidores reales confirmados ni crean un ranking comercial.
+- **14 fichas públicas** contrastadas; las otras 174 dependen de datos canónicos archivados sin relectura web individual.
+- Contraevidencias relevantes: alternativas gratuitas de KPI y fondos, oferta OTEC asincrónica propia, cursos de gestión genéricos y herramientas sin flujo específico OSFL. [Informe y enlaces](UX-11.2_REPORT.md).
+- [Generador reproducible](../scripts/ux11_2_review.py), [QA](../tests/test_ux11_2_review.py), exportación de CSV a artefacto GitHub Actions con copia en Drive a persistir durante cierre.
+- No se modifica el ranking C, los datos originales ni el HTML. Vercel se mantiene en v1.0.12.
+- <b>Estado:</b> resultados en rama, pendientes de confirmar QA en PR, fusión bajo ruleset y respaldo Drive.
+
+## Próxima UX-11.3 · Dificultad estimada 5/10
+
+**Qué hará:** sintetizar para cada uno de C001–C006 las evidencias O/D y los sustitutos contrastados, distinguir competencia parcial y brechas hipotéticas, y definir qué prueba falsaría el caso de negocio. Verificar expresamente si C003 y C002 continúan siendo prioridades condicionadas sin subir automáticamente sus puntajes.
+
+**Por qué importa:** una revisión por títulos/tareas no valida la oportunidad; se requiere una comparación por resultado de aprendizaje, público, formato y evidencia de compra. Subdividir UX-11.3 si sus pasos superan 5/10.
 
 ## Condiciones de despliegue
 
