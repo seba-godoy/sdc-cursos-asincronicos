@@ -74,12 +74,6 @@ La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada 
 - No se modifica el ranking C, los datos originales ni el HTML. Vercel se mantiene en v1.0.12.
 - **Estado: completada.** [PR #5](https://github.com/seba-godoy/sdc-cursos-asincronicos/pull/5) fusionado y [QA post-merge #16](https://github.com/seba-godoy/sdc-cursos-asincronicos/actions/runs/45220565282) SUCCESS con Python 3.11/3.12 (28 pruebas en cada entorno). [ZIP verificado de las 188 fichas y 14 contrastes en Drive](https://drive.google.com/file/d/1yFhUgzVzbfYcDGRyneiS8PIdKSzVsYWC/view).
 
-## Próxima UX-11.3 · Dificultad estimada 5/10
-
-**Qué hará:** sintetizar para cada uno de C001–C006 las evidencias O/D y los sustitutos contrastados, distinguir competencia parcial y brechas hipotéticas, y definir qué prueba falsaría el caso de negocio. Verificar expresamente si C003 y C002 continúan siendo prioridades condicionadas sin subir automáticamente sus puntajes.
-
-**Por qué importa:** una revisión por títulos/tareas no valida la oportunidad; se requiere una comparación por resultado de aprendizaje, público, formato y evidencia de compra. Subdividir UX-11.3 si sus pasos superan 5/10.
-
 ## UX-11.3 · Seis fichas comparativas y falsadores · 23/11/2026
 
 - Microfases de dificultad controlada: UX-11.3a (3/10, auditoría y modelo), UX-11.3b (4/10, hipótesis y contraevidencia), UX-11.3c (4/10, generador/QA) y UX-11.3d (4/10, persistencia).
