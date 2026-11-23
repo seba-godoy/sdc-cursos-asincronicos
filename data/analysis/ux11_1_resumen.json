@@ -1,0 +1,32 @@
+{
+  "version": "UX-11.1",
+  "baseline": "v1.0.12",
+  "corte": "2026-11-23",
+  "unidades": {
+    "oferta": 392,
+    "demanda": 24,
+    "busquedas": 709,
+    "conceptos": 6
+  },
+  "universo_oxd": 9408,
+  "pares_cotematicos_por_referencias_c": 164,
+  "pares_sin_enlace_curado": 9244,
+  "referencias_oferta_en_c": 38,
+  "ofertas_unicas_en_c": 34,
+  "ofertas_sin_referencia_c": 358,
+  "referencias_demanda_en_c": 24,
+  "corroboracion_demanda": {
+    "DIRECTO": 15,
+    "INDICE_OFICIAL": 3,
+    "PARCIAL": 6
+  },
+  "clase_senal_demanda": {
+    "CONTRATACION_INSTITUCIONAL": 5,
+    "FORMACION": 11,
+    "OPERACION": 6,
+    "POSTULACION": 2
+  },
+  "ofertas_candidatas_busqueda_lexica": 184,
+  "ofertas_sin_coincidencia_lexica": 208,
+  "advertencia": "Cada par es una coreferencia temática, NO una relación causal o equivalencia funcional; sin enlace no implica ausencia de oportunidad. No se agregan valores de demanda ni se infiere disposición a pagar."
+}
