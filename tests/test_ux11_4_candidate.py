@@ -63,6 +63,11 @@ class TestUX114(unittest.TestCase):
         self.assertIn('ux4-evidence-list',self.html)
         self.assertIn('ux4-offers-list',self.html)
 
+    def test_renderer_accepts_serialized_card_array(self):
+        js=(ROOT/"src/ux11_4/render_concepts.js").read_text(encoding="utf8")
+        self.assertIn("Array.isArray(ux4Data)?ux4Data:ux4Data.cards",js)
+        self.assertIn('const ux4Map=new Map(ux4Cards.map',js)
+
     def test_no_external_asset_dependency(self):
         self.assertNotRegex(self.html,r'<script[^>]+src=["\']https?://')
         self.assertNotRegex(self.html,r'<link[^>]+rel=["\']stylesheet["\'][^>]+href=["\']https?://')
