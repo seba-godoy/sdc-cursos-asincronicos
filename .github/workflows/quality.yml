@@ -70,5 +70,19 @@ jobs:
             dist/ux11_2/resumen.json
           retention-days: 14
           if-no-files-found: error
+      - name: Generar fichas comparables UX-11.3 sin recalcular puntajes
+        run: python -m scripts.ux11_3_cards
+      - name: Archivar fichas y falsadores UX-11.3
+        if: matrix.python-version == '3.12' && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v6
+        with:
+          name: sdc-ux11-3-seis-fichas
+          path: |
+            dist/ux11_3/fichas_6.json
+            dist/ux11_3/matriz_6.csv
+            dist/ux11_3/pruebas_falsadoras_6.csv
+            dist/ux11_3/resumen.json
+          retention-days: 14
+          if-no-files-found: error
       - name: Confirmar que no se alteraron archivos rastreados
         run: git diff --exit-code && git diff --cached --exit-code
