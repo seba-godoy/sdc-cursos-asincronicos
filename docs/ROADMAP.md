@@ -8,7 +8,7 @@
 | GH-01.3 | 4/10 | **Completada** | QA en GitHub Actions, matriz Python y recuperación aislada |
 | GH-01.4 | 4/10 | **Completada**; publicación aprobada después | Preview, gates y release registrado |
 | UX-11.1 | 4/10 | **Completada 23-11-2026, QA aprobada** | 9.408 pares posibles; 164 coreferencias, 392 ofertas cribadas, contraevidencia |
-| UX-11.2 | 3+5+4+4/10, subdividida | **Resultado analítico en PR; QA pendiente** | 188 O cribadas, 14 fichas web, clasificación de sustitutos y contraevidencia |
+| UX-11.2 | 3+5+4+4/10 · microfases | **Completada y auditada 23-11-2026** | 188 O revisadas, 14 fuentes públicas contrastadas, matriz y contraevidencia |
 | UX-11.3 | 5/10 (estimada) | **Siguiente** | Comparativas por C001–C006 y pruebas falsadoras |
 | UX-11.4–11.5 | ≤5/10 cada una | Pendiente | Interfaz Conclusiones Cruzadas, QA y preview |
 
@@ -71,7 +71,7 @@ La v1.0.12 fue aprobada visualmente por el responsable del proyecto y publicada 
 - Contraevidencias relevantes: alternativas gratuitas de KPI y fondos, oferta OTEC asincrónica propia, cursos de gestión genéricos y herramientas sin flujo específico OSFL. [Informe y enlaces](UX-11.2_REPORT.md).
 - [Generador reproducible](../scripts/ux11_2_review.py), [QA](../tests/test_ux11_2_review.py), exportación de CSV a artefacto GitHub Actions con copia en Drive a persistir durante cierre.
 - No se modifica el ranking C, los datos originales ni el HTML. Vercel se mantiene en v1.0.12.
-- <b>Estado:</b> resultados en rama, pendientes de confirmar QA en PR, fusión bajo ruleset y respaldo Drive.
+- **Estado: completada.** [PR #5](https://github.com/seba-godoy/sdc-cursos-asincronicos/pull/5) fusionado y [QA post-merge #16](https://github.com/seba-godoy/sdc-cursos-asincronicos/actions/runs/45220565282) SUCCESS con Python 3.11/3.12 (28 pruebas en cada entorno). [ZIP verificado de las 188 fichas y 14 contrastes en Drive](https://drive.google.com/file/d/1yFhUgzVzbfYcDGRyneiS8PIdKSzVsYWC/view).
 
 ## Próxima UX-11.3 · Dificultad estimada 5/10
 
